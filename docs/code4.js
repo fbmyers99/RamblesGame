@@ -3583,8 +3583,8 @@ gdjs.ThirdCode.condition0IsTrue_0.val = false;
 {
 gdjs.ThirdCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 }if (gdjs.ThirdCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "116730__benboncan__drips-in-mine.wav", 2, true, 45, 1);
-}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "27151__roscoetoon__water-drip-echo2.wav", 4, true, 30, 1);
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "116730__benboncan__drips-in-mine.wav", 2, true, 35, 1);
+}{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "27151__roscoetoon__water-drip-echo2.wav", 4, true, 20, 1);
 }}
 
 }
