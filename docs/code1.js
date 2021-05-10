@@ -89,6 +89,11 @@ gdjs.OptionsCode.GDRadioAchievementObjects2= [];
 gdjs.OptionsCode.GDRadioAchievementObjects3= [];
 gdjs.OptionsCode.GDRadioAchievementObjects4= [];
 gdjs.OptionsCode.GDRadioAchievementObjects5= [];
+gdjs.OptionsCode.GDCameraAchievementObjects1= [];
+gdjs.OptionsCode.GDCameraAchievementObjects2= [];
+gdjs.OptionsCode.GDCameraAchievementObjects3= [];
+gdjs.OptionsCode.GDCameraAchievementObjects4= [];
+gdjs.OptionsCode.GDCameraAchievementObjects5= [];
 gdjs.OptionsCode.GDHydrophobicObjects1= [];
 gdjs.OptionsCode.GDHydrophobicObjects2= [];
 gdjs.OptionsCode.GDHydrophobicObjects3= [];
@@ -154,6 +159,11 @@ gdjs.OptionsCode.GDMinusObjects2= [];
 gdjs.OptionsCode.GDMinusObjects3= [];
 gdjs.OptionsCode.GDMinusObjects4= [];
 gdjs.OptionsCode.GDMinusObjects5= [];
+gdjs.OptionsCode.GDCameraTextObjects1= [];
+gdjs.OptionsCode.GDCameraTextObjects2= [];
+gdjs.OptionsCode.GDCameraTextObjects3= [];
+gdjs.OptionsCode.GDCameraTextObjects4= [];
+gdjs.OptionsCode.GDCameraTextObjects5= [];
 
 gdjs.OptionsCode.conditionTrue_0 = {val:false};
 gdjs.OptionsCode.condition0IsTrue_0 = {val:false};
@@ -1191,25 +1201,48 @@ gdjs.OptionsCode.eventsList17(runtimeScene);} //End of subevents
 
 };gdjs.OptionsCode.eventsList19 = function(runtimeScene) {
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("TBC"), gdjs.OptionsCode.GDTBCObjects2);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDTBCObjects2.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDTBCObjects2[i].getVariableString(gdjs.OptionsCode.GDTBCObjects2[i].getVariables().getFromIndex(0)) == "radio" ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDTBCObjects2[k] = gdjs.OptionsCode.GDTBCObjects2[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDTBCObjects2.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDTBCObjects2 */
+{for(var i = 0, len = gdjs.OptionsCode.GDTBCObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDTBCObjects2[i].hide();
+}
+}}
+
+}
+
+
 };gdjs.OptionsCode.eventsList20 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("TBC"), gdjs.OptionsCode.GDTBCObjects1);
+gdjs.copyArray(runtimeScene.getObjects("TBC"), gdjs.OptionsCode.GDTBCObjects2);
 
 gdjs.OptionsCode.condition0IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.OptionsCode.GDTBCObjects1.length;i<l;++i) {
-    if ( gdjs.OptionsCode.GDTBCObjects1[i].getVariableString(gdjs.OptionsCode.GDTBCObjects1[i].getVariables().getFromIndex(0)) == "radio" ) {
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDTBCObjects2.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDTBCObjects2[i].getVariableString(gdjs.OptionsCode.GDTBCObjects2[i].getVariables().getFromIndex(0)) == "radio" ) {
         gdjs.OptionsCode.condition0IsTrue_0.val = true;
-        gdjs.OptionsCode.GDTBCObjects1[k] = gdjs.OptionsCode.GDTBCObjects1[i];
+        gdjs.OptionsCode.GDTBCObjects2[k] = gdjs.OptionsCode.GDTBCObjects2[i];
         ++k;
     }
 }
-gdjs.OptionsCode.GDTBCObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
-/* Reuse gdjs.OptionsCode.GDTBCObjects1 */
-{for(var i = 0, len = gdjs.OptionsCode.GDTBCObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDTBCObjects1[i].hide();
+gdjs.OptionsCode.GDTBCObjects2.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDTBCObjects2 */
+{for(var i = 0, len = gdjs.OptionsCode.GDTBCObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDTBCObjects2[i].hide(false);
 }
 }}
 
@@ -1220,12 +1253,37 @@ gdjs.OptionsCode.GDTBCObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("TBC"), gdjs.OptionsCode.GDTBCObjects2);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDTBCObjects2.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDTBCObjects2[i].getVariableString(gdjs.OptionsCode.GDTBCObjects2[i].getVariables().getFromIndex(0)) == "camera" ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDTBCObjects2[k] = gdjs.OptionsCode.GDTBCObjects2[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDTBCObjects2.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDTBCObjects2 */
+{for(var i = 0, len = gdjs.OptionsCode.GDTBCObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDTBCObjects2[i].hide();
+}
+}}
+
+}
+
+
+};gdjs.OptionsCode.eventsList22 = function(runtimeScene) {
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("TBC"), gdjs.OptionsCode.GDTBCObjects1);
 
 gdjs.OptionsCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.OptionsCode.GDTBCObjects1.length;i<l;++i) {
-    if ( gdjs.OptionsCode.GDTBCObjects1[i].getVariableString(gdjs.OptionsCode.GDTBCObjects1[i].getVariables().getFromIndex(0)) == "radio" ) {
+    if ( gdjs.OptionsCode.GDTBCObjects1[i].getVariableString(gdjs.OptionsCode.GDTBCObjects1[i].getVariables().getFromIndex(0)) == "camera" ) {
         gdjs.OptionsCode.condition0IsTrue_0.val = true;
         gdjs.OptionsCode.GDTBCObjects1[k] = gdjs.OptionsCode.GDTBCObjects1[i];
         ++k;
@@ -1241,7 +1299,115 @@ gdjs.OptionsCode.GDTBCObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue
 }
 
 
-};gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects2Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects2});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects2Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects2});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects1Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects1});gdjs.OptionsCode.eventsList22 = function(runtimeScene) {
+};gdjs.OptionsCode.eventsList23 = function(runtimeScene) {
+
+{
+
+
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("RadioAchievement"), true);
+}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("RadioAchievement"), gdjs.OptionsCode.GDRadioAchievementObjects2);
+gdjs.copyArray(runtimeScene.getObjects("RadioText"), gdjs.OptionsCode.GDRadioTextObjects2);
+{for(var i = 0, len = gdjs.OptionsCode.GDRadioAchievementObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDRadioAchievementObjects2[i].setAnimationName("Collected");
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDRadioTextObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDRadioTextObjects2[i].hide(false);
+}
+}
+{ //Subevents
+gdjs.OptionsCode.eventsList19(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("RadioAchievement"), true));
+}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("RadioAchievement"), gdjs.OptionsCode.GDRadioAchievementObjects2);
+gdjs.copyArray(runtimeScene.getObjects("RadioText"), gdjs.OptionsCode.GDRadioTextObjects2);
+{for(var i = 0, len = gdjs.OptionsCode.GDRadioAchievementObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDRadioAchievementObjects2[i].setAnimationName("Blank");
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDRadioTextObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDRadioTextObjects2[i].hide();
+}
+}
+{ //Subevents
+gdjs.OptionsCode.eventsList20(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("CameraAchievement"), true);
+}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("CameraAchievement"), gdjs.OptionsCode.GDCameraAchievementObjects2);
+gdjs.copyArray(runtimeScene.getObjects("CameraText"), gdjs.OptionsCode.GDCameraTextObjects2);
+{for(var i = 0, len = gdjs.OptionsCode.GDCameraAchievementObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDCameraAchievementObjects2[i].setAnimationName("Collected");
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDCameraTextObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDCameraTextObjects2[i].hide(false);
+}
+}
+{ //Subevents
+gdjs.OptionsCode.eventsList21(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("CameraAchievement"), true));
+}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("CameraAchievement"), gdjs.OptionsCode.GDCameraAchievementObjects1);
+gdjs.copyArray(runtimeScene.getObjects("CameraText"), gdjs.OptionsCode.GDCameraTextObjects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDCameraAchievementObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDCameraAchievementObjects1[i].setAnimationName("Blank");
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDCameraTextObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDCameraTextObjects1[i].hide();
+}
+}
+{ //Subevents
+gdjs.OptionsCode.eventsList22(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects2Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects2});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects2Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects2});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects1Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects1});gdjs.OptionsCode.eventsList24 = function(runtimeScene) {
 
 {
 
@@ -1303,7 +1469,7 @@ if (gdjs.OptionsCode.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.OptionsCode.eventsList23 = function(runtimeScene) {
+};gdjs.OptionsCode.eventsList25 = function(runtimeScene) {
 
 {
 
@@ -1352,60 +1518,14 @@ gdjs.OptionsCode.eventsList18(runtimeScene);
 {
 
 
-gdjs.OptionsCode.eventsList19(runtimeScene);
+gdjs.OptionsCode.eventsList23(runtimeScene);
 }
 
 
 {
 
 
-gdjs.OptionsCode.condition0IsTrue_0.val = false;
-{
-gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("RadioAchievement"), true);
-}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("RadioAchievement"), gdjs.OptionsCode.GDRadioAchievementObjects1);
-gdjs.copyArray(runtimeScene.getObjects("RadioText"), gdjs.OptionsCode.GDRadioTextObjects1);
-{for(var i = 0, len = gdjs.OptionsCode.GDRadioAchievementObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDRadioAchievementObjects1[i].setAnimationName("Collected");
-}
-}{for(var i = 0, len = gdjs.OptionsCode.GDRadioTextObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDRadioTextObjects1[i].hide(false);
-}
-}
-{ //Subevents
-gdjs.OptionsCode.eventsList20(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.OptionsCode.condition0IsTrue_0.val = false;
-{
-gdjs.OptionsCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("RadioAchievement"), true));
-}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("RadioAchievement"), gdjs.OptionsCode.GDRadioAchievementObjects1);
-gdjs.copyArray(runtimeScene.getObjects("RadioText"), gdjs.OptionsCode.GDRadioTextObjects1);
-{for(var i = 0, len = gdjs.OptionsCode.GDRadioAchievementObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDRadioAchievementObjects1[i].setAnimationName("Blank");
-}
-}{for(var i = 0, len = gdjs.OptionsCode.GDRadioTextObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDRadioTextObjects1[i].hide();
-}
-}
-{ //Subevents
-gdjs.OptionsCode.eventsList21(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.OptionsCode.eventsList22(runtimeScene);
+gdjs.OptionsCode.eventsList24(runtimeScene);
 }
 
 
@@ -1504,6 +1624,11 @@ gdjs.OptionsCode.GDRadioAchievementObjects2.length = 0;
 gdjs.OptionsCode.GDRadioAchievementObjects3.length = 0;
 gdjs.OptionsCode.GDRadioAchievementObjects4.length = 0;
 gdjs.OptionsCode.GDRadioAchievementObjects5.length = 0;
+gdjs.OptionsCode.GDCameraAchievementObjects1.length = 0;
+gdjs.OptionsCode.GDCameraAchievementObjects2.length = 0;
+gdjs.OptionsCode.GDCameraAchievementObjects3.length = 0;
+gdjs.OptionsCode.GDCameraAchievementObjects4.length = 0;
+gdjs.OptionsCode.GDCameraAchievementObjects5.length = 0;
 gdjs.OptionsCode.GDHydrophobicObjects1.length = 0;
 gdjs.OptionsCode.GDHydrophobicObjects2.length = 0;
 gdjs.OptionsCode.GDHydrophobicObjects3.length = 0;
@@ -1569,8 +1694,13 @@ gdjs.OptionsCode.GDMinusObjects2.length = 0;
 gdjs.OptionsCode.GDMinusObjects3.length = 0;
 gdjs.OptionsCode.GDMinusObjects4.length = 0;
 gdjs.OptionsCode.GDMinusObjects5.length = 0;
+gdjs.OptionsCode.GDCameraTextObjects1.length = 0;
+gdjs.OptionsCode.GDCameraTextObjects2.length = 0;
+gdjs.OptionsCode.GDCameraTextObjects3.length = 0;
+gdjs.OptionsCode.GDCameraTextObjects4.length = 0;
+gdjs.OptionsCode.GDCameraTextObjects5.length = 0;
 
-gdjs.OptionsCode.eventsList23(runtimeScene);
+gdjs.OptionsCode.eventsList25(runtimeScene);
 return;
 
 }

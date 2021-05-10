@@ -5448,6 +5448,18 @@ gdjs.SecondCode.eventsList3(runtimeScene);} //End of subevents
 {
 
 
+gdjs.SecondCode.condition0IsTrue_0.val = false;
+{
+gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("RadioAchievement"), true);
+}if (gdjs.SecondCode.condition0IsTrue_0.val) {
+}
+
+}
+
+
+{
+
+
 {
 gdjs.copyArray(runtimeScene.getObjects("Lantern"), gdjs.SecondCode.GDLanternObjects1);
 gdjs.copyArray(runtimeScene.getObjects("LanternTop"), gdjs.SecondCode.GDLanternTopObjects1);
