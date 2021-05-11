@@ -5435,6 +5435,7 @@ gdjs.copyArray(runtimeScene.getObjects("DrinksCount"), gdjs.SecondCode.GDDrinksC
 gdjs.copyArray(runtimeScene.getObjects("EndScreen"), gdjs.SecondCode.GDEndScreenObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ExpressDesc"), gdjs.SecondCode.GDExpressDescObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ExpressTravel"), gdjs.SecondCode.GDExpressTravelObjects1);
+gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.SecondCode.GDFPSObjects1);
 gdjs.copyArray(runtimeScene.getObjects("FallText"), gdjs.SecondCode.GDFallTextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("FallingZone"), gdjs.SecondCode.GDFallingZoneObjects1);
 gdjs.copyArray(runtimeScene.getObjects("FoodCount"), gdjs.SecondCode.GDFoodCountObjects1);
@@ -5583,6 +5584,9 @@ gdjs.copyArray(runtimeScene.getObjects("WaterEdge"), gdjs.SecondCode.GDWaterEdge
 }
 }{for(var i = 0, len = gdjs.SecondCode.GDFallTextObjects1.length ;i < len;++i) {
     gdjs.SecondCode.GDFallTextObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.SecondCode.GDFPSObjects1.length ;i < len;++i) {
+    gdjs.SecondCode.GDFPSObjects1[i].hide();
 }
 }
 { //Subevents

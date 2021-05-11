@@ -4842,6 +4842,7 @@ gdjs.copyArray(runtimeScene.getObjects("DrinksCount"), gdjs.FirstCode.GDDrinksCo
 gdjs.copyArray(runtimeScene.getObjects("EndScreen"), gdjs.FirstCode.GDEndScreenObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ExpressDesc"), gdjs.FirstCode.GDExpressDescObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ExpressTravel"), gdjs.FirstCode.GDExpressTravelObjects1);
+gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.FirstCode.GDFPSObjects1);
 gdjs.copyArray(runtimeScene.getObjects("FoodCount"), gdjs.FirstCode.GDFoodCountObjects1);
 gdjs.copyArray(runtimeScene.getObjects("FoodText"), gdjs.FirstCode.GDFoodTextObjects1);
 gdjs.copyArray(runtimeScene.getObjects("HydroDesc"), gdjs.FirstCode.GDHydroDescObjects1);
@@ -4969,6 +4970,9 @@ gdjs.copyArray(runtimeScene.getObjects("XButton"), gdjs.FirstCode.GDXButtonObjec
 }
 }{for(var i = 0, len = gdjs.FirstCode.GDMinusObjects1.length ;i < len;++i) {
     gdjs.FirstCode.GDMinusObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.FirstCode.GDFPSObjects1.length ;i < len;++i) {
+    gdjs.FirstCode.GDFPSObjects1[i].hide();
 }
 }
 { //Subevents

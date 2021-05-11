@@ -1827,9 +1827,21 @@ gdjs.FourthCode.eventsList25(runtimeScene);} //End of subevents
 /* Reuse gdjs.FourthCode.GDBoxBGObjects2 */
 
 gdjs.FourthCode.condition0IsTrue_0.val = false;
+gdjs.FourthCode.condition1IsTrue_0.val = false;
+gdjs.FourthCode.condition2IsTrue_0.val = false;
 {
 gdjs.FourthCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoxBGObjects2Objects, runtimeScene, true, false);
-}if (gdjs.FourthCode.condition0IsTrue_0.val) {
+}if ( gdjs.FourthCode.condition0IsTrue_0.val ) {
+{
+gdjs.FourthCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+}if ( gdjs.FourthCode.condition1IsTrue_0.val ) {
+{
+{gdjs.FourthCode.conditionTrue_1 = gdjs.FourthCode.condition2IsTrue_0;
+gdjs.FourthCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18231388);
+}
+}}
+}
+if (gdjs.FourthCode.condition2IsTrue_0.val) {
 /* Reuse gdjs.FourthCode.GDBoxBGObjects2 */
 {runtimeScene.getGame().getVariables().get("KeyActivated").mul(-(1));
 }{for(var i = 0, len = gdjs.FourthCode.GDBoxBGObjects2.length ;i < len;++i) {
