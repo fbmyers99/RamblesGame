@@ -4095,7 +4095,7 @@ gdjs.FirstCode.condition1IsTrue_0.val = false;
 gdjs.FirstCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.FirstCode.mapOfGDgdjs_46FirstCode_46GDNextLevelObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.FirstCode.condition0IsTrue_0.val ) {
 {
-gdjs.FirstCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.FirstCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }}
 if (gdjs.FirstCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Second", false);

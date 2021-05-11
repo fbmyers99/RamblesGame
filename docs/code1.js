@@ -99,6 +99,11 @@ gdjs.OptionsCode.GDCameraAchievementObjects2= [];
 gdjs.OptionsCode.GDCameraAchievementObjects3= [];
 gdjs.OptionsCode.GDCameraAchievementObjects4= [];
 gdjs.OptionsCode.GDCameraAchievementObjects5= [];
+gdjs.OptionsCode.GDJournalAchievementObjects1= [];
+gdjs.OptionsCode.GDJournalAchievementObjects2= [];
+gdjs.OptionsCode.GDJournalAchievementObjects3= [];
+gdjs.OptionsCode.GDJournalAchievementObjects4= [];
+gdjs.OptionsCode.GDJournalAchievementObjects5= [];
 gdjs.OptionsCode.GDHydrophobicObjects1= [];
 gdjs.OptionsCode.GDHydrophobicObjects2= [];
 gdjs.OptionsCode.GDHydrophobicObjects3= [];
@@ -169,6 +174,11 @@ gdjs.OptionsCode.GDCameraTextObjects2= [];
 gdjs.OptionsCode.GDCameraTextObjects3= [];
 gdjs.OptionsCode.GDCameraTextObjects4= [];
 gdjs.OptionsCode.GDCameraTextObjects5= [];
+gdjs.OptionsCode.GDJournalTextObjects1= [];
+gdjs.OptionsCode.GDJournalTextObjects2= [];
+gdjs.OptionsCode.GDJournalTextObjects3= [];
+gdjs.OptionsCode.GDJournalTextObjects4= [];
+gdjs.OptionsCode.GDJournalTextObjects5= [];
 
 gdjs.OptionsCode.conditionTrue_0 = {val:false};
 gdjs.OptionsCode.condition0IsTrue_0 = {val:false};
@@ -1285,12 +1295,62 @@ gdjs.OptionsCode.GDTBCObjects2.length = k;}if (gdjs.OptionsCode.condition0IsTrue
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("TBC"), gdjs.OptionsCode.GDTBCObjects2);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDTBCObjects2.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDTBCObjects2[i].getVariableString(gdjs.OptionsCode.GDTBCObjects2[i].getVariables().getFromIndex(0)) == "camera" ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDTBCObjects2[k] = gdjs.OptionsCode.GDTBCObjects2[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDTBCObjects2.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDTBCObjects2 */
+{for(var i = 0, len = gdjs.OptionsCode.GDTBCObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDTBCObjects2[i].hide(false);
+}
+}}
+
+}
+
+
+};gdjs.OptionsCode.eventsList23 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("TBC"), gdjs.OptionsCode.GDTBCObjects2);
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.OptionsCode.GDTBCObjects2.length;i<l;++i) {
+    if ( gdjs.OptionsCode.GDTBCObjects2[i].getVariableString(gdjs.OptionsCode.GDTBCObjects2[i].getVariables().getFromIndex(0)) == "journal" ) {
+        gdjs.OptionsCode.condition0IsTrue_0.val = true;
+        gdjs.OptionsCode.GDTBCObjects2[k] = gdjs.OptionsCode.GDTBCObjects2[i];
+        ++k;
+    }
+}
+gdjs.OptionsCode.GDTBCObjects2.length = k;}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.OptionsCode.GDTBCObjects2 */
+{for(var i = 0, len = gdjs.OptionsCode.GDTBCObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDTBCObjects2[i].hide();
+}
+}}
+
+}
+
+
+};gdjs.OptionsCode.eventsList24 = function(runtimeScene) {
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("TBC"), gdjs.OptionsCode.GDTBCObjects1);
 
 gdjs.OptionsCode.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.OptionsCode.GDTBCObjects1.length;i<l;++i) {
-    if ( gdjs.OptionsCode.GDTBCObjects1[i].getVariableString(gdjs.OptionsCode.GDTBCObjects1[i].getVariables().getFromIndex(0)) == "camera" ) {
+    if ( gdjs.OptionsCode.GDTBCObjects1[i].getVariableString(gdjs.OptionsCode.GDTBCObjects1[i].getVariables().getFromIndex(0)) == "journal" ) {
         gdjs.OptionsCode.condition0IsTrue_0.val = true;
         gdjs.OptionsCode.GDTBCObjects1[k] = gdjs.OptionsCode.GDTBCObjects1[i];
         ++k;
@@ -1306,7 +1366,7 @@ gdjs.OptionsCode.GDTBCObjects1.length = k;}if (gdjs.OptionsCode.condition0IsTrue
 }
 
 
-};gdjs.OptionsCode.eventsList23 = function(runtimeScene) {
+};gdjs.OptionsCode.eventsList25 = function(runtimeScene) {
 
 {
 
@@ -1398,13 +1458,13 @@ gdjs.OptionsCode.condition0IsTrue_0.val = false;
 {
 gdjs.OptionsCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("CameraAchievement"), true));
 }if (gdjs.OptionsCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("CameraAchievement"), gdjs.OptionsCode.GDCameraAchievementObjects1);
-gdjs.copyArray(runtimeScene.getObjects("CameraText"), gdjs.OptionsCode.GDCameraTextObjects1);
-{for(var i = 0, len = gdjs.OptionsCode.GDCameraAchievementObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDCameraAchievementObjects1[i].setAnimationName("Blank");
+gdjs.copyArray(runtimeScene.getObjects("CameraAchievement"), gdjs.OptionsCode.GDCameraAchievementObjects2);
+gdjs.copyArray(runtimeScene.getObjects("CameraText"), gdjs.OptionsCode.GDCameraTextObjects2);
+{for(var i = 0, len = gdjs.OptionsCode.GDCameraAchievementObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDCameraAchievementObjects2[i].setAnimationName("Blank");
 }
-}{for(var i = 0, len = gdjs.OptionsCode.GDCameraTextObjects1.length ;i < len;++i) {
-    gdjs.OptionsCode.GDCameraTextObjects1[i].hide();
+}{for(var i = 0, len = gdjs.OptionsCode.GDCameraTextObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDCameraTextObjects2[i].hide();
 }
 }
 { //Subevents
@@ -1414,7 +1474,60 @@ gdjs.OptionsCode.eventsList22(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects2Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects2});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects2Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects2});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects1Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects1});gdjs.OptionsCode.eventsList24 = function(runtimeScene) {
+{
+
+
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("JournalAchievement"), true);
+}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("JournalAchievement"), gdjs.OptionsCode.GDJournalAchievementObjects2);
+gdjs.copyArray(runtimeScene.getObjects("JournalText"), gdjs.OptionsCode.GDJournalTextObjects2);
+{for(var i = 0, len = gdjs.OptionsCode.GDJournalAchievementObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDJournalAchievementObjects2[i].setAnimationName("Collected");
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDJournalTextObjects2.length ;i < len;++i) {
+    gdjs.OptionsCode.GDJournalTextObjects2[i].hide(false);
+}
+}
+{ //Subevents
+gdjs.OptionsCode.eventsList23(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.OptionsCode.condition0IsTrue_0.val = false;
+{
+gdjs.OptionsCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableBoolean(runtimeScene.getGame().getVariables().get("JournalAchievement"), true));
+}if (gdjs.OptionsCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("JournalAchievement"), gdjs.OptionsCode.GDJournalAchievementObjects1);
+gdjs.copyArray(runtimeScene.getObjects("JournalText"), gdjs.OptionsCode.GDJournalTextObjects1);
+{for(var i = 0, len = gdjs.OptionsCode.GDJournalAchievementObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDJournalAchievementObjects1[i].setAnimationName("Blank");
+}
+}{for(var i = 0, len = gdjs.OptionsCode.GDJournalTextObjects1.length ;i < len;++i) {
+    gdjs.OptionsCode.GDJournalTextObjects1[i].hide();
+}
+}
+{ //Subevents
+gdjs.OptionsCode.eventsList24(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects2Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects2});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects2Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects2});gdjs.OptionsCode.mapOfGDgdjs_46OptionsCode_46GDReturnToMenuObjects1Objects = Hashtable.newFrom({"ReturnToMenu": gdjs.OptionsCode.GDReturnToMenuObjects1});gdjs.OptionsCode.eventsList26 = function(runtimeScene) {
 
 {
 
@@ -1476,7 +1589,7 @@ if (gdjs.OptionsCode.condition2IsTrue_0.val) {
 }
 
 
-};gdjs.OptionsCode.eventsList25 = function(runtimeScene) {
+};gdjs.OptionsCode.eventsList27 = function(runtimeScene) {
 
 {
 
@@ -1525,14 +1638,14 @@ gdjs.OptionsCode.eventsList18(runtimeScene);
 {
 
 
-gdjs.OptionsCode.eventsList23(runtimeScene);
+gdjs.OptionsCode.eventsList25(runtimeScene);
 }
 
 
 {
 
 
-gdjs.OptionsCode.eventsList24(runtimeScene);
+gdjs.OptionsCode.eventsList26(runtimeScene);
 }
 
 
@@ -1641,6 +1754,11 @@ gdjs.OptionsCode.GDCameraAchievementObjects2.length = 0;
 gdjs.OptionsCode.GDCameraAchievementObjects3.length = 0;
 gdjs.OptionsCode.GDCameraAchievementObjects4.length = 0;
 gdjs.OptionsCode.GDCameraAchievementObjects5.length = 0;
+gdjs.OptionsCode.GDJournalAchievementObjects1.length = 0;
+gdjs.OptionsCode.GDJournalAchievementObjects2.length = 0;
+gdjs.OptionsCode.GDJournalAchievementObjects3.length = 0;
+gdjs.OptionsCode.GDJournalAchievementObjects4.length = 0;
+gdjs.OptionsCode.GDJournalAchievementObjects5.length = 0;
 gdjs.OptionsCode.GDHydrophobicObjects1.length = 0;
 gdjs.OptionsCode.GDHydrophobicObjects2.length = 0;
 gdjs.OptionsCode.GDHydrophobicObjects3.length = 0;
@@ -1711,8 +1829,13 @@ gdjs.OptionsCode.GDCameraTextObjects2.length = 0;
 gdjs.OptionsCode.GDCameraTextObjects3.length = 0;
 gdjs.OptionsCode.GDCameraTextObjects4.length = 0;
 gdjs.OptionsCode.GDCameraTextObjects5.length = 0;
+gdjs.OptionsCode.GDJournalTextObjects1.length = 0;
+gdjs.OptionsCode.GDJournalTextObjects2.length = 0;
+gdjs.OptionsCode.GDJournalTextObjects3.length = 0;
+gdjs.OptionsCode.GDJournalTextObjects4.length = 0;
+gdjs.OptionsCode.GDJournalTextObjects5.length = 0;
 
-gdjs.OptionsCode.eventsList25(runtimeScene);
+gdjs.OptionsCode.eventsList27(runtimeScene);
 return;
 
 }
