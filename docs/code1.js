@@ -54,6 +54,11 @@ gdjs.OptionsCode.GDCheckpointZoneObjects2= [];
 gdjs.OptionsCode.GDCheckpointZoneObjects3= [];
 gdjs.OptionsCode.GDCheckpointZoneObjects4= [];
 gdjs.OptionsCode.GDCheckpointZoneObjects5= [];
+gdjs.OptionsCode.GDSmokeObjects1= [];
+gdjs.OptionsCode.GDSmokeObjects2= [];
+gdjs.OptionsCode.GDSmokeObjects3= [];
+gdjs.OptionsCode.GDSmokeObjects4= [];
+gdjs.OptionsCode.GDSmokeObjects5= [];
 gdjs.OptionsCode.GDBackgroundObjects1= [];
 gdjs.OptionsCode.GDBackgroundObjects2= [];
 gdjs.OptionsCode.GDBackgroundObjects3= [];
@@ -478,6 +483,7 @@ gdjs.OptionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber
 }if (gdjs.OptionsCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().get("Level1Complete").add(1);
 }{runtimeScene.getGame().getVariables().get("Level2Complete").add(1);
+}{runtimeScene.getGame().getVariables().get("Level3Complete").add(1);
 }
 { //Subevents
 gdjs.OptionsCode.eventsList6(runtimeScene);} //End of subevents
@@ -495,6 +501,7 @@ gdjs.OptionsCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableNumb
 }if (gdjs.OptionsCode.condition0IsTrue_0.val) {
 {runtimeScene.getGame().getVariables().get("Level1Complete").sub(1);
 }{runtimeScene.getGame().getVariables().get("Level2Complete").sub(1);
+}{runtimeScene.getGame().getVariables().get("Level3Complete").sub(1);
 }
 { //Subevents
 gdjs.OptionsCode.eventsList7(runtimeScene);} //End of subevents
@@ -714,7 +721,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13726876);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17741276);
 }
 }}
 }
@@ -831,7 +838,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13731964);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17746364);
 }
 }}
 }
@@ -948,7 +955,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13737124);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17751524);
 }
 }}
 }
@@ -1065,7 +1072,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13742212);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17756612);
 }
 }}
 }
@@ -1458,7 +1465,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelea
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(13749036);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17766684);
 }
 }}
 }
@@ -1589,6 +1596,11 @@ gdjs.OptionsCode.GDCheckpointZoneObjects2.length = 0;
 gdjs.OptionsCode.GDCheckpointZoneObjects3.length = 0;
 gdjs.OptionsCode.GDCheckpointZoneObjects4.length = 0;
 gdjs.OptionsCode.GDCheckpointZoneObjects5.length = 0;
+gdjs.OptionsCode.GDSmokeObjects1.length = 0;
+gdjs.OptionsCode.GDSmokeObjects2.length = 0;
+gdjs.OptionsCode.GDSmokeObjects3.length = 0;
+gdjs.OptionsCode.GDSmokeObjects4.length = 0;
+gdjs.OptionsCode.GDSmokeObjects5.length = 0;
 gdjs.OptionsCode.GDBackgroundObjects1.length = 0;
 gdjs.OptionsCode.GDBackgroundObjects2.length = 0;
 gdjs.OptionsCode.GDBackgroundObjects3.length = 0;

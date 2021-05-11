@@ -54,6 +54,11 @@ gdjs.SecondCode.GDCheckpointZoneObjects2= [];
 gdjs.SecondCode.GDCheckpointZoneObjects3= [];
 gdjs.SecondCode.GDCheckpointZoneObjects4= [];
 gdjs.SecondCode.GDCheckpointZoneObjects5= [];
+gdjs.SecondCode.GDSmokeObjects1= [];
+gdjs.SecondCode.GDSmokeObjects2= [];
+gdjs.SecondCode.GDSmokeObjects3= [];
+gdjs.SecondCode.GDSmokeObjects4= [];
+gdjs.SecondCode.GDSmokeObjects5= [];
 gdjs.SecondCode.GDBackgroundObjects1= [];
 gdjs.SecondCode.GDBackgroundObjects2= [];
 gdjs.SecondCode.GDBackgroundObjects3= [];
@@ -244,11 +249,6 @@ gdjs.SecondCode.GDTrainObjects2= [];
 gdjs.SecondCode.GDTrainObjects3= [];
 gdjs.SecondCode.GDTrainObjects4= [];
 gdjs.SecondCode.GDTrainObjects5= [];
-gdjs.SecondCode.GDSmokeObjects1= [];
-gdjs.SecondCode.GDSmokeObjects2= [];
-gdjs.SecondCode.GDSmokeObjects3= [];
-gdjs.SecondCode.GDSmokeObjects4= [];
-gdjs.SecondCode.GDSmokeObjects5= [];
 gdjs.SecondCode.GDWallLanternFlippedObjects1= [];
 gdjs.SecondCode.GDWallLanternFlippedObjects2= [];
 gdjs.SecondCode.GDWallLanternFlippedObjects3= [];
@@ -499,6 +499,16 @@ gdjs.SecondCode.GDFallTextObjects2= [];
 gdjs.SecondCode.GDFallTextObjects3= [];
 gdjs.SecondCode.GDFallTextObjects4= [];
 gdjs.SecondCode.GDFallTextObjects5= [];
+gdjs.SecondCode.GDAllObjectsCountObjects1= [];
+gdjs.SecondCode.GDAllObjectsCountObjects2= [];
+gdjs.SecondCode.GDAllObjectsCountObjects3= [];
+gdjs.SecondCode.GDAllObjectsCountObjects4= [];
+gdjs.SecondCode.GDAllObjectsCountObjects5= [];
+gdjs.SecondCode.GDFPSObjects1= [];
+gdjs.SecondCode.GDFPSObjects2= [];
+gdjs.SecondCode.GDFPSObjects3= [];
+gdjs.SecondCode.GDFPSObjects4= [];
+gdjs.SecondCode.GDFPSObjects5= [];
 
 gdjs.SecondCode.conditionTrue_0 = {val:false};
 gdjs.SecondCode.condition0IsTrue_0 = {val:false};
@@ -920,7 +930,7 @@ gdjs.SecondCode.eventsList9(runtimeScene);} //End of subevents
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14050036);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18072924);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "popup.wav", false, 50, 1);
@@ -1235,7 +1245,7 @@ if (gdjs.SecondCode.condition8IsTrue_0.val) {
 }
 
 
-};gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.SecondCode.GDXObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.SecondCode.GDXObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.SecondCode.GDXObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.SecondCode.GDMinusObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.SecondCode.GDMinusObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.SecondCode.GDMinusObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDBoxBGObjects3Objects = Hashtable.newFrom({"BoxBG": gdjs.SecondCode.GDBoxBGObjects3});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDBoxBGObjects3Objects = Hashtable.newFrom({"BoxBG": gdjs.SecondCode.GDBoxBGObjects3});gdjs.SecondCode.eventsList14 = function(runtimeScene) {
+};gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDBackgroundObjects2ObjectsGDgdjs_46SecondCode_46GDDeathCountObjects2ObjectsGDgdjs_46SecondCode_46GDFoodCountObjects2ObjectsGDgdjs_46SecondCode_46GDDrinksCountObjects2ObjectsGDgdjs_46SecondCode_46GDRespawnCountObjects2ObjectsGDgdjs_46SecondCode_46GDRestartCountObjects2ObjectsGDgdjs_46SecondCode_46GDLevelScoreObjects2ObjectsGDgdjs_46SecondCode_46GDTotalScoreObjects2ObjectsGDgdjs_46SecondCode_46GDLeftObjects2ObjectsGDgdjs_46SecondCode_46GDRightObjects2ObjectsGDgdjs_46SecondCode_46GDUpObjects2ObjectsGDgdjs_46SecondCode_46GDDownObjects2ObjectsGDgdjs_46SecondCode_46GDSunObjects2ObjectsGDgdjs_46SecondCode_46GDEndSignObjects2ObjectsGDgdjs_46SecondCode_46GDCheckpointObjects2ObjectsGDgdjs_46SecondCode_46GDCheckpointZoneObjects2ObjectsGDgdjs_46SecondCode_46GDWaterObjects2ObjectsGDgdjs_46SecondCode_46GDWaterEdgeObjects2ObjectsGDgdjs_46SecondCode_46GDWaterSpeedChangeObjects2ObjectsGDgdjs_46SecondCode_46GDFallingZoneObjects2ObjectsGDgdjs_46SecondCode_46GDTrainStartObjects2ObjectsGDgdjs_46SecondCode_46GDPierFlippedObjects2ObjectsGDgdjs_46SecondCode_46GDTallPlatformObjects2ObjectsGDgdjs_46SecondCode_46GDCollapsingPlatformObjects2ObjectsGDgdjs_46SecondCode_46GDHangingPlatformObjects2ObjectsGDgdjs_46SecondCode_46GDWallPlatformRightObjects2ObjectsGDgdjs_46SecondCode_46GDWallPlatformLeftObjects2ObjectsGDgdjs_46SecondCode_46GDColumnObjects2ObjectsGDgdjs_46SecondCode_46GDStation1Objects2ObjectsGDgdjs_46SecondCode_46GDStation2Objects2ObjectsGDgdjs_46SecondCode_46GDMovingObjects2ObjectsGDgdjs_46SecondCode_46GDLadderObjects2ObjectsGDgdjs_46SecondCode_46GDBox1Objects2ObjectsGDgdjs_46SecondCode_46GDBox2Objects2ObjectsGDgdjs_46SecondCode_46GDBox3Objects2ObjectsGDgdjs_46SecondCode_46GDBox4Objects2ObjectsGDgdjs_46SecondCode_46GDTrainObjects2ObjectsGDgdjs_46SecondCode_46GDWallLanternFlippedObjects2ObjectsGDgdjs_46SecondCode_46GDHangingLanternObjects2ObjectsGDgdjs_46SecondCode_46GDSecondaryKeyObjects2ObjectsGDgdjs_46SecondCode_46GDSecondaryDoorObjects2ObjectsGDgdjs_46SecondCode_46GDPowerObjects2ObjectsGDgdjs_46SecondCode_46GDEndKeyObjects2ObjectsGDgdjs_46SecondCode_46GDEndDoorObjects2ObjectsGDgdjs_46SecondCode_46GDFoodCollectableObjects2ObjectsGDgdjs_46SecondCode_46GDDrinkCollectableObjects2ObjectsGDgdjs_46SecondCode_46GDWallLanternObjects2ObjectsGDgdjs_46SecondCode_46GDRadioObjects2ObjectsGDgdjs_46SecondCode_46GDPopupObjects2ObjectsGDgdjs_46SecondCode_46GDBoxBGObjects2ObjectsGDgdjs_46SecondCode_46GDReturnToMenuObjects2ObjectsGDgdjs_46SecondCode_46GDRestartLevelObjects2ObjectsGDgdjs_46SecondCode_46GDHydrophobicObjects2ObjectsGDgdjs_46SecondCode_46GDHydroDescObjects2ObjectsGDgdjs_46SecondCode_46GDOnTheMoonObjects2ObjectsGDgdjs_46SecondCode_46GDMoonDescObjects2ObjectsGDgdjs_46SecondCode_46GDExpressTravelObjects2ObjectsGDgdjs_46SecondCode_46GDExpressDescObjects2ObjectsGDgdjs_46SecondCode_46GDMasterKeyObjects2ObjectsGDgdjs_46SecondCode_46GDKeyDescObjects2ObjectsGDgdjs_46SecondCode_46GDXButtonObjects2ObjectsGDgdjs_46SecondCode_46GDSDText1Objects2ObjectsGDgdjs_46SecondCode_46GDBaseText1Objects2ObjectsGDgdjs_46SecondCode_46GDSDText2Objects2ObjectsGDgdjs_46SecondCode_46GDBaseText2Objects2ObjectsGDgdjs_46SecondCode_46GDTrainDeadTextObjects2ObjectsGDgdjs_46SecondCode_46GDPowerTextObjects2ObjectsGDgdjs_46SecondCode_46GDRadioText1Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText2Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText3Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText4Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText5Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText6Objects2ObjectsGDgdjs_46SecondCode_46GDEndLevelObjects2ObjectsGDgdjs_46SecondCode_46GDEndScreenObjects2ObjectsGDgdjs_46SecondCode_46GDNextLevelObjects2ObjectsGDgdjs_46SecondCode_46GDRespawnObjects2ObjectsGDgdjs_46SecondCode_46GDPauseTabObjects2ObjectsGDgdjs_46SecondCode_46GDStatusObjects2ObjectsGDgdjs_46SecondCode_46GDXObjects2ObjectsGDgdjs_46SecondCode_46GDMinusObjects2ObjectsGDgdjs_46SecondCode_46GDAudioObjects2ObjectsGDgdjs_46SecondCode_46GDVolumeLevelObjects2ObjectsGDgdjs_46SecondCode_46GDText1Objects2ObjectsGDgdjs_46SecondCode_46GDText2Objects2ObjectsGDgdjs_46SecondCode_46GDText3Objects2ObjectsGDgdjs_46SecondCode_46GDFallTextObjects2ObjectsGDgdjs_46SecondCode_46GDPlayerObjects2ObjectsGDgdjs_46SecondCode_46GDBasePlatformObjects2ObjectsGDgdjs_46SecondCode_46GDLanternObjects2ObjectsGDgdjs_46SecondCode_46GDLanternTopObjects2ObjectsGDgdjs_46SecondCode_46GDBarrierObjects2ObjectsGDgdjs_46SecondCode_46GDSmokeObjects2ObjectsGDgdjs_46SecondCode_46GDAllObjectsCountObjects2ObjectsGDgdjs_46SecondCode_46GDFPSObjects2Objects = Hashtable.newFrom({"Background": gdjs.SecondCode.GDBackgroundObjects2, "DeathCount": gdjs.SecondCode.GDDeathCountObjects2, "FoodCount": gdjs.SecondCode.GDFoodCountObjects2, "DrinksCount": gdjs.SecondCode.GDDrinksCountObjects2, "RespawnCount": gdjs.SecondCode.GDRespawnCountObjects2, "RestartCount": gdjs.SecondCode.GDRestartCountObjects2, "LevelScore": gdjs.SecondCode.GDLevelScoreObjects2, "TotalScore": gdjs.SecondCode.GDTotalScoreObjects2, "Left": gdjs.SecondCode.GDLeftObjects2, "Right": gdjs.SecondCode.GDRightObjects2, "Up": gdjs.SecondCode.GDUpObjects2, "Down": gdjs.SecondCode.GDDownObjects2, "Sun": gdjs.SecondCode.GDSunObjects2, "EndSign": gdjs.SecondCode.GDEndSignObjects2, "Checkpoint": gdjs.SecondCode.GDCheckpointObjects2, "CheckpointZone": gdjs.SecondCode.GDCheckpointZoneObjects2, "Water": gdjs.SecondCode.GDWaterObjects2, "WaterEdge": gdjs.SecondCode.GDWaterEdgeObjects2, "WaterSpeedChange": gdjs.SecondCode.GDWaterSpeedChangeObjects2, "FallingZone": gdjs.SecondCode.GDFallingZoneObjects2, "TrainStart": gdjs.SecondCode.GDTrainStartObjects2, "PierFlipped": gdjs.SecondCode.GDPierFlippedObjects2, "TallPlatform": gdjs.SecondCode.GDTallPlatformObjects2, "CollapsingPlatform": gdjs.SecondCode.GDCollapsingPlatformObjects2, "HangingPlatform": gdjs.SecondCode.GDHangingPlatformObjects2, "WallPlatformRight": gdjs.SecondCode.GDWallPlatformRightObjects2, "WallPlatformLeft": gdjs.SecondCode.GDWallPlatformLeftObjects2, "Column": gdjs.SecondCode.GDColumnObjects2, "Station1": gdjs.SecondCode.GDStation1Objects2, "Station2": gdjs.SecondCode.GDStation2Objects2, "Moving": gdjs.SecondCode.GDMovingObjects2, "Ladder": gdjs.SecondCode.GDLadderObjects2, "Box1": gdjs.SecondCode.GDBox1Objects2, "Box2": gdjs.SecondCode.GDBox2Objects2, "Box3": gdjs.SecondCode.GDBox3Objects2, "Box4": gdjs.SecondCode.GDBox4Objects2, "Train": gdjs.SecondCode.GDTrainObjects2, "WallLanternFlipped": gdjs.SecondCode.GDWallLanternFlippedObjects2, "HangingLantern": gdjs.SecondCode.GDHangingLanternObjects2, "SecondaryKey": gdjs.SecondCode.GDSecondaryKeyObjects2, "SecondaryDoor": gdjs.SecondCode.GDSecondaryDoorObjects2, "Power": gdjs.SecondCode.GDPowerObjects2, "EndKey": gdjs.SecondCode.GDEndKeyObjects2, "EndDoor": gdjs.SecondCode.GDEndDoorObjects2, "FoodCollectable": gdjs.SecondCode.GDFoodCollectableObjects2, "DrinkCollectable": gdjs.SecondCode.GDDrinkCollectableObjects2, "WallLantern": gdjs.SecondCode.GDWallLanternObjects2, "Radio": gdjs.SecondCode.GDRadioObjects2, "Popup": gdjs.SecondCode.GDPopupObjects2, "BoxBG": gdjs.SecondCode.GDBoxBGObjects2, "ReturnToMenu": gdjs.SecondCode.GDReturnToMenuObjects2, "RestartLevel": gdjs.SecondCode.GDRestartLevelObjects2, "Hydrophobic": gdjs.SecondCode.GDHydrophobicObjects2, "HydroDesc": gdjs.SecondCode.GDHydroDescObjects2, "OnTheMoon": gdjs.SecondCode.GDOnTheMoonObjects2, "MoonDesc": gdjs.SecondCode.GDMoonDescObjects2, "ExpressTravel": gdjs.SecondCode.GDExpressTravelObjects2, "ExpressDesc": gdjs.SecondCode.GDExpressDescObjects2, "MasterKey": gdjs.SecondCode.GDMasterKeyObjects2, "KeyDesc": gdjs.SecondCode.GDKeyDescObjects2, "XButton": gdjs.SecondCode.GDXButtonObjects2, "SDText1": gdjs.SecondCode.GDSDText1Objects2, "BaseText1": gdjs.SecondCode.GDBaseText1Objects2, "SDText2": gdjs.SecondCode.GDSDText2Objects2, "BaseText2": gdjs.SecondCode.GDBaseText2Objects2, "TrainDeadText": gdjs.SecondCode.GDTrainDeadTextObjects2, "PowerText": gdjs.SecondCode.GDPowerTextObjects2, "RadioText1": gdjs.SecondCode.GDRadioText1Objects2, "RadioText2": gdjs.SecondCode.GDRadioText2Objects2, "RadioText3": gdjs.SecondCode.GDRadioText3Objects2, "RadioText4": gdjs.SecondCode.GDRadioText4Objects2, "RadioText5": gdjs.SecondCode.GDRadioText5Objects2, "RadioText6": gdjs.SecondCode.GDRadioText6Objects2, "EndLevel": gdjs.SecondCode.GDEndLevelObjects2, "EndScreen": gdjs.SecondCode.GDEndScreenObjects2, "NextLevel": gdjs.SecondCode.GDNextLevelObjects2, "Respawn": gdjs.SecondCode.GDRespawnObjects2, "PauseTab": gdjs.SecondCode.GDPauseTabObjects2, "Status": gdjs.SecondCode.GDStatusObjects2, "X": gdjs.SecondCode.GDXObjects2, "Minus": gdjs.SecondCode.GDMinusObjects2, "Audio": gdjs.SecondCode.GDAudioObjects2, "VolumeLevel": gdjs.SecondCode.GDVolumeLevelObjects2, "Text1": gdjs.SecondCode.GDText1Objects2, "Text2": gdjs.SecondCode.GDText2Objects2, "Text3": gdjs.SecondCode.GDText3Objects2, "FallText": gdjs.SecondCode.GDFallTextObjects2, "Player": gdjs.SecondCode.GDPlayerObjects2, "BasePlatform": gdjs.SecondCode.GDBasePlatformObjects2, "Lantern": gdjs.SecondCode.GDLanternObjects2, "LanternTop": gdjs.SecondCode.GDLanternTopObjects2, "Barrier": gdjs.SecondCode.GDBarrierObjects2, "Smoke": gdjs.SecondCode.GDSmokeObjects2, "AllObjectsCount": gdjs.SecondCode.GDAllObjectsCountObjects2, "FPS": gdjs.SecondCode.GDFPSObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.SecondCode.GDXObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.SecondCode.GDXObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.SecondCode.GDXObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.SecondCode.GDMinusObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.SecondCode.GDMinusObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.SecondCode.GDMinusObjects2});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDBoxBGObjects3Objects = Hashtable.newFrom({"BoxBG": gdjs.SecondCode.GDBoxBGObjects3});gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDBoxBGObjects3Objects = Hashtable.newFrom({"BoxBG": gdjs.SecondCode.GDBoxBGObjects3});gdjs.SecondCode.eventsList14 = function(runtimeScene) {
 
 {
 
@@ -1379,7 +1389,7 @@ gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14078572);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18101828);
 }
 }}
 }
@@ -1499,7 +1509,7 @@ gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14084892);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18108148);
 }
 }}
 }
@@ -1615,7 +1625,7 @@ gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14089708);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18112964);
 }
 }}
 }
@@ -1732,7 +1742,7 @@ gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14094724);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18117980);
 }
 }}
 }
@@ -1799,7 +1809,7 @@ gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleas
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14048428);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18071292);
 }
 }}
 }
@@ -1834,10 +1844,12 @@ gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Paused")) == -(1);
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("AllObjectsCount"), gdjs.SecondCode.GDAllObjectsCountObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Audio"), gdjs.SecondCode.GDAudioObjects2);
 gdjs.copyArray(runtimeScene.getObjects("BoxBG"), gdjs.SecondCode.GDBoxBGObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ExpressDesc"), gdjs.SecondCode.GDExpressDescObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ExpressTravel"), gdjs.SecondCode.GDExpressTravelObjects2);
+gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.SecondCode.GDFPSObjects2);
 gdjs.copyArray(runtimeScene.getObjects("HydroDesc"), gdjs.SecondCode.GDHydroDescObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Hydrophobic"), gdjs.SecondCode.GDHydrophobicObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KeyDesc"), gdjs.SecondCode.GDKeyDescObjects2);
@@ -1910,6 +1922,12 @@ gdjs.copyArray(runtimeScene.getObjects("XButton"), gdjs.SecondCode.GDXButtonObje
 }{for(var i = 0, len = gdjs.SecondCode.GDMinusObjects2.length ;i < len;++i) {
     gdjs.SecondCode.GDMinusObjects2[i].hide(false);
 }
+}{for(var i = 0, len = gdjs.SecondCode.GDAllObjectsCountObjects2.length ;i < len;++i) {
+    gdjs.SecondCode.GDAllObjectsCountObjects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.SecondCode.GDFPSObjects2.length ;i < len;++i) {
+    gdjs.SecondCode.GDFPSObjects2[i].hide(false);
+}
 }
 { //Subevents
 gdjs.SecondCode.eventsList12(runtimeScene);} //End of subevents
@@ -1925,10 +1943,12 @@ gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 gdjs.SecondCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Paused")) == -(1));
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("AllObjectsCount"), gdjs.SecondCode.GDAllObjectsCountObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Audio"), gdjs.SecondCode.GDAudioObjects2);
 gdjs.copyArray(runtimeScene.getObjects("BoxBG"), gdjs.SecondCode.GDBoxBGObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ExpressDesc"), gdjs.SecondCode.GDExpressDescObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ExpressTravel"), gdjs.SecondCode.GDExpressTravelObjects2);
+gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.SecondCode.GDFPSObjects2);
 gdjs.copyArray(runtimeScene.getObjects("HydroDesc"), gdjs.SecondCode.GDHydroDescObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Hydrophobic"), gdjs.SecondCode.GDHydrophobicObjects2);
 gdjs.copyArray(runtimeScene.getObjects("KeyDesc"), gdjs.SecondCode.GDKeyDescObjects2);
@@ -2001,6 +2021,12 @@ gdjs.copyArray(runtimeScene.getObjects("XButton"), gdjs.SecondCode.GDXButtonObje
 }{for(var i = 0, len = gdjs.SecondCode.GDMinusObjects2.length ;i < len;++i) {
     gdjs.SecondCode.GDMinusObjects2[i].hide();
 }
+}{for(var i = 0, len = gdjs.SecondCode.GDAllObjectsCountObjects2.length ;i < len;++i) {
+    gdjs.SecondCode.GDAllObjectsCountObjects2[i].hide();
+}
+}{for(var i = 0, len = gdjs.SecondCode.GDFPSObjects2.length ;i < len;++i) {
+    gdjs.SecondCode.GDFPSObjects2[i].hide();
+}
 }
 { //Subevents
 gdjs.SecondCode.eventsList13(runtimeScene);} //End of subevents
@@ -2012,15 +2038,105 @@ gdjs.SecondCode.eventsList13(runtimeScene);} //End of subevents
 {
 
 
+gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
+gdjs.SecondCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Level2Complete")) == 2);
+}if (gdjs.SecondCode.condition0IsTrue_0.val) {
+gdjs.copyArray(runtimeScene.getObjects("AllObjectsCount"), gdjs.SecondCode.GDAllObjectsCountObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Audio"), gdjs.SecondCode.GDAudioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Background"), gdjs.SecondCode.GDBackgroundObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Barrier"), gdjs.SecondCode.GDBarrierObjects2);
+gdjs.copyArray(runtimeScene.getObjects("BasePlatform"), gdjs.SecondCode.GDBasePlatformObjects2);
+gdjs.copyArray(runtimeScene.getObjects("BaseText1"), gdjs.SecondCode.GDBaseText1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("BaseText2"), gdjs.SecondCode.GDBaseText2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Box1"), gdjs.SecondCode.GDBox1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Box2"), gdjs.SecondCode.GDBox2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Box3"), gdjs.SecondCode.GDBox3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Box4"), gdjs.SecondCode.GDBox4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("BoxBG"), gdjs.SecondCode.GDBoxBGObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Checkpoint"), gdjs.SecondCode.GDCheckpointObjects2);
+gdjs.copyArray(runtimeScene.getObjects("CheckpointZone"), gdjs.SecondCode.GDCheckpointZoneObjects2);
+gdjs.copyArray(runtimeScene.getObjects("CollapsingPlatform"), gdjs.SecondCode.GDCollapsingPlatformObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Column"), gdjs.SecondCode.GDColumnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DeathCount"), gdjs.SecondCode.GDDeathCountObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Down"), gdjs.SecondCode.GDDownObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DrinkCollectable"), gdjs.SecondCode.GDDrinkCollectableObjects2);
 gdjs.copyArray(runtimeScene.getObjects("DrinksCount"), gdjs.SecondCode.GDDrinksCountObjects2);
+gdjs.copyArray(runtimeScene.getObjects("EndDoor"), gdjs.SecondCode.GDEndDoorObjects2);
+gdjs.copyArray(runtimeScene.getObjects("EndKey"), gdjs.SecondCode.GDEndKeyObjects2);
+gdjs.copyArray(runtimeScene.getObjects("EndLevel"), gdjs.SecondCode.GDEndLevelObjects2);
+gdjs.copyArray(runtimeScene.getObjects("EndScreen"), gdjs.SecondCode.GDEndScreenObjects2);
+gdjs.copyArray(runtimeScene.getObjects("EndSign"), gdjs.SecondCode.GDEndSignObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ExpressDesc"), gdjs.SecondCode.GDExpressDescObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ExpressTravel"), gdjs.SecondCode.GDExpressTravelObjects2);
+gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.SecondCode.GDFPSObjects2);
+gdjs.copyArray(runtimeScene.getObjects("FallText"), gdjs.SecondCode.GDFallTextObjects2);
+gdjs.copyArray(runtimeScene.getObjects("FallingZone"), gdjs.SecondCode.GDFallingZoneObjects2);
+gdjs.copyArray(runtimeScene.getObjects("FoodCollectable"), gdjs.SecondCode.GDFoodCollectableObjects2);
 gdjs.copyArray(runtimeScene.getObjects("FoodCount"), gdjs.SecondCode.GDFoodCountObjects2);
+gdjs.copyArray(runtimeScene.getObjects("HangingLantern"), gdjs.SecondCode.GDHangingLanternObjects2);
+gdjs.copyArray(runtimeScene.getObjects("HangingPlatform"), gdjs.SecondCode.GDHangingPlatformObjects2);
+gdjs.copyArray(runtimeScene.getObjects("HydroDesc"), gdjs.SecondCode.GDHydroDescObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Hydrophobic"), gdjs.SecondCode.GDHydrophobicObjects2);
+gdjs.copyArray(runtimeScene.getObjects("KeyDesc"), gdjs.SecondCode.GDKeyDescObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Ladder"), gdjs.SecondCode.GDLadderObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Lantern"), gdjs.SecondCode.GDLanternObjects2);
+gdjs.copyArray(runtimeScene.getObjects("LanternTop"), gdjs.SecondCode.GDLanternTopObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Left"), gdjs.SecondCode.GDLeftObjects2);
 gdjs.copyArray(runtimeScene.getObjects("LevelScore"), gdjs.SecondCode.GDLevelScoreObjects2);
+gdjs.copyArray(runtimeScene.getObjects("MasterKey"), gdjs.SecondCode.GDMasterKeyObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Minus"), gdjs.SecondCode.GDMinusObjects2);
+gdjs.copyArray(runtimeScene.getObjects("MoonDesc"), gdjs.SecondCode.GDMoonDescObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Moving"), gdjs.SecondCode.GDMovingObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NextLevel"), gdjs.SecondCode.GDNextLevelObjects2);
+gdjs.copyArray(runtimeScene.getObjects("OnTheMoon"), gdjs.SecondCode.GDOnTheMoonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("PauseTab"), gdjs.SecondCode.GDPauseTabObjects2);
+gdjs.copyArray(runtimeScene.getObjects("PierFlipped"), gdjs.SecondCode.GDPierFlippedObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.SecondCode.GDPlayerObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Popup"), gdjs.SecondCode.GDPopupObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Power"), gdjs.SecondCode.GDPowerObjects2);
+gdjs.copyArray(runtimeScene.getObjects("PowerText"), gdjs.SecondCode.GDPowerTextObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Radio"), gdjs.SecondCode.GDRadioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("RadioText1"), gdjs.SecondCode.GDRadioText1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("RadioText2"), gdjs.SecondCode.GDRadioText2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("RadioText3"), gdjs.SecondCode.GDRadioText3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("RadioText4"), gdjs.SecondCode.GDRadioText4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("RadioText5"), gdjs.SecondCode.GDRadioText5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("RadioText6"), gdjs.SecondCode.GDRadioText6Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Respawn"), gdjs.SecondCode.GDRespawnObjects2);
 gdjs.copyArray(runtimeScene.getObjects("RespawnCount"), gdjs.SecondCode.GDRespawnCountObjects2);
 gdjs.copyArray(runtimeScene.getObjects("RestartCount"), gdjs.SecondCode.GDRestartCountObjects2);
+gdjs.copyArray(runtimeScene.getObjects("RestartLevel"), gdjs.SecondCode.GDRestartLevelObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ReturnToMenu"), gdjs.SecondCode.GDReturnToMenuObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Right"), gdjs.SecondCode.GDRightObjects2);
+gdjs.copyArray(runtimeScene.getObjects("SDText1"), gdjs.SecondCode.GDSDText1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("SDText2"), gdjs.SecondCode.GDSDText2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("SecondaryDoor"), gdjs.SecondCode.GDSecondaryDoorObjects2);
+gdjs.copyArray(runtimeScene.getObjects("SecondaryKey"), gdjs.SecondCode.GDSecondaryKeyObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Smoke"), gdjs.SecondCode.GDSmokeObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Station1"), gdjs.SecondCode.GDStation1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Station2"), gdjs.SecondCode.GDStation2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Status"), gdjs.SecondCode.GDStatusObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Sun"), gdjs.SecondCode.GDSunObjects2);
+gdjs.copyArray(runtimeScene.getObjects("TallPlatform"), gdjs.SecondCode.GDTallPlatformObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Text1"), gdjs.SecondCode.GDText1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Text2"), gdjs.SecondCode.GDText2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Text3"), gdjs.SecondCode.GDText3Objects2);
 gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.SecondCode.GDTotalScoreObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Train"), gdjs.SecondCode.GDTrainObjects2);
+gdjs.copyArray(runtimeScene.getObjects("TrainDeadText"), gdjs.SecondCode.GDTrainDeadTextObjects2);
+gdjs.copyArray(runtimeScene.getObjects("TrainStart"), gdjs.SecondCode.GDTrainStartObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Up"), gdjs.SecondCode.GDUpObjects2);
 gdjs.copyArray(runtimeScene.getObjects("VolumeLevel"), gdjs.SecondCode.GDVolumeLevelObjects2);
+gdjs.copyArray(runtimeScene.getObjects("WallLantern"), gdjs.SecondCode.GDWallLanternObjects2);
+gdjs.copyArray(runtimeScene.getObjects("WallLanternFlipped"), gdjs.SecondCode.GDWallLanternFlippedObjects2);
+gdjs.copyArray(runtimeScene.getObjects("WallPlatformLeft"), gdjs.SecondCode.GDWallPlatformLeftObjects2);
+gdjs.copyArray(runtimeScene.getObjects("WallPlatformRight"), gdjs.SecondCode.GDWallPlatformRightObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Water"), gdjs.SecondCode.GDWaterObjects2);
+gdjs.copyArray(runtimeScene.getObjects("WaterEdge"), gdjs.SecondCode.GDWaterEdgeObjects2);
+gdjs.copyArray(runtimeScene.getObjects("WaterSpeedChange"), gdjs.SecondCode.GDWaterSpeedChangeObjects2);
+gdjs.copyArray(runtimeScene.getObjects("X"), gdjs.SecondCode.GDXObjects2);
+gdjs.copyArray(runtimeScene.getObjects("XButton"), gdjs.SecondCode.GDXButtonObjects2);
 {for(var i = 0, len = gdjs.SecondCode.GDDeathCountObjects2.length ;i < len;++i) {
     gdjs.SecondCode.GDDeathCountObjects2[i].setString(gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Deaths"))));
 }
@@ -2046,6 +2162,13 @@ gdjs.copyArray(runtimeScene.getObjects("VolumeLevel"), gdjs.SecondCode.GDVolumeL
 }
 }{for(var i = 0, len = gdjs.SecondCode.GDVolumeLevelObjects2.length ;i < len;++i) {
     gdjs.SecondCode.GDVolumeLevelObjects2[i].setString(gdjs.evtTools.common.toString(gdjs.evtTools.sound.getGlobalVolume(runtimeScene)));
+}
+}{runtimeScene.getVariables().get("ObjectsCount").setNumber(gdjs.evtTools.object.pickedObjectsCount(gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDBackgroundObjects2ObjectsGDgdjs_46SecondCode_46GDDeathCountObjects2ObjectsGDgdjs_46SecondCode_46GDFoodCountObjects2ObjectsGDgdjs_46SecondCode_46GDDrinksCountObjects2ObjectsGDgdjs_46SecondCode_46GDRespawnCountObjects2ObjectsGDgdjs_46SecondCode_46GDRestartCountObjects2ObjectsGDgdjs_46SecondCode_46GDLevelScoreObjects2ObjectsGDgdjs_46SecondCode_46GDTotalScoreObjects2ObjectsGDgdjs_46SecondCode_46GDLeftObjects2ObjectsGDgdjs_46SecondCode_46GDRightObjects2ObjectsGDgdjs_46SecondCode_46GDUpObjects2ObjectsGDgdjs_46SecondCode_46GDDownObjects2ObjectsGDgdjs_46SecondCode_46GDSunObjects2ObjectsGDgdjs_46SecondCode_46GDEndSignObjects2ObjectsGDgdjs_46SecondCode_46GDCheckpointObjects2ObjectsGDgdjs_46SecondCode_46GDCheckpointZoneObjects2ObjectsGDgdjs_46SecondCode_46GDWaterObjects2ObjectsGDgdjs_46SecondCode_46GDWaterEdgeObjects2ObjectsGDgdjs_46SecondCode_46GDWaterSpeedChangeObjects2ObjectsGDgdjs_46SecondCode_46GDFallingZoneObjects2ObjectsGDgdjs_46SecondCode_46GDTrainStartObjects2ObjectsGDgdjs_46SecondCode_46GDPierFlippedObjects2ObjectsGDgdjs_46SecondCode_46GDTallPlatformObjects2ObjectsGDgdjs_46SecondCode_46GDCollapsingPlatformObjects2ObjectsGDgdjs_46SecondCode_46GDHangingPlatformObjects2ObjectsGDgdjs_46SecondCode_46GDWallPlatformRightObjects2ObjectsGDgdjs_46SecondCode_46GDWallPlatformLeftObjects2ObjectsGDgdjs_46SecondCode_46GDColumnObjects2ObjectsGDgdjs_46SecondCode_46GDStation1Objects2ObjectsGDgdjs_46SecondCode_46GDStation2Objects2ObjectsGDgdjs_46SecondCode_46GDMovingObjects2ObjectsGDgdjs_46SecondCode_46GDLadderObjects2ObjectsGDgdjs_46SecondCode_46GDBox1Objects2ObjectsGDgdjs_46SecondCode_46GDBox2Objects2ObjectsGDgdjs_46SecondCode_46GDBox3Objects2ObjectsGDgdjs_46SecondCode_46GDBox4Objects2ObjectsGDgdjs_46SecondCode_46GDTrainObjects2ObjectsGDgdjs_46SecondCode_46GDWallLanternFlippedObjects2ObjectsGDgdjs_46SecondCode_46GDHangingLanternObjects2ObjectsGDgdjs_46SecondCode_46GDSecondaryKeyObjects2ObjectsGDgdjs_46SecondCode_46GDSecondaryDoorObjects2ObjectsGDgdjs_46SecondCode_46GDPowerObjects2ObjectsGDgdjs_46SecondCode_46GDEndKeyObjects2ObjectsGDgdjs_46SecondCode_46GDEndDoorObjects2ObjectsGDgdjs_46SecondCode_46GDFoodCollectableObjects2ObjectsGDgdjs_46SecondCode_46GDDrinkCollectableObjects2ObjectsGDgdjs_46SecondCode_46GDWallLanternObjects2ObjectsGDgdjs_46SecondCode_46GDRadioObjects2ObjectsGDgdjs_46SecondCode_46GDPopupObjects2ObjectsGDgdjs_46SecondCode_46GDBoxBGObjects2ObjectsGDgdjs_46SecondCode_46GDReturnToMenuObjects2ObjectsGDgdjs_46SecondCode_46GDRestartLevelObjects2ObjectsGDgdjs_46SecondCode_46GDHydrophobicObjects2ObjectsGDgdjs_46SecondCode_46GDHydroDescObjects2ObjectsGDgdjs_46SecondCode_46GDOnTheMoonObjects2ObjectsGDgdjs_46SecondCode_46GDMoonDescObjects2ObjectsGDgdjs_46SecondCode_46GDExpressTravelObjects2ObjectsGDgdjs_46SecondCode_46GDExpressDescObjects2ObjectsGDgdjs_46SecondCode_46GDMasterKeyObjects2ObjectsGDgdjs_46SecondCode_46GDKeyDescObjects2ObjectsGDgdjs_46SecondCode_46GDXButtonObjects2ObjectsGDgdjs_46SecondCode_46GDSDText1Objects2ObjectsGDgdjs_46SecondCode_46GDBaseText1Objects2ObjectsGDgdjs_46SecondCode_46GDSDText2Objects2ObjectsGDgdjs_46SecondCode_46GDBaseText2Objects2ObjectsGDgdjs_46SecondCode_46GDTrainDeadTextObjects2ObjectsGDgdjs_46SecondCode_46GDPowerTextObjects2ObjectsGDgdjs_46SecondCode_46GDRadioText1Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText2Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText3Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText4Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText5Objects2ObjectsGDgdjs_46SecondCode_46GDRadioText6Objects2ObjectsGDgdjs_46SecondCode_46GDEndLevelObjects2ObjectsGDgdjs_46SecondCode_46GDEndScreenObjects2ObjectsGDgdjs_46SecondCode_46GDNextLevelObjects2ObjectsGDgdjs_46SecondCode_46GDRespawnObjects2ObjectsGDgdjs_46SecondCode_46GDPauseTabObjects2ObjectsGDgdjs_46SecondCode_46GDStatusObjects2ObjectsGDgdjs_46SecondCode_46GDXObjects2ObjectsGDgdjs_46SecondCode_46GDMinusObjects2ObjectsGDgdjs_46SecondCode_46GDAudioObjects2ObjectsGDgdjs_46SecondCode_46GDVolumeLevelObjects2ObjectsGDgdjs_46SecondCode_46GDText1Objects2ObjectsGDgdjs_46SecondCode_46GDText2Objects2ObjectsGDgdjs_46SecondCode_46GDText3Objects2ObjectsGDgdjs_46SecondCode_46GDFallTextObjects2ObjectsGDgdjs_46SecondCode_46GDPlayerObjects2ObjectsGDgdjs_46SecondCode_46GDBasePlatformObjects2ObjectsGDgdjs_46SecondCode_46GDLanternObjects2ObjectsGDgdjs_46SecondCode_46GDLanternTopObjects2ObjectsGDgdjs_46SecondCode_46GDBarrierObjects2ObjectsGDgdjs_46SecondCode_46GDSmokeObjects2ObjectsGDgdjs_46SecondCode_46GDAllObjectsCountObjects2ObjectsGDgdjs_46SecondCode_46GDFPSObjects2Objects));
+}{for(var i = 0, len = gdjs.SecondCode.GDAllObjectsCountObjects2.length ;i < len;++i) {
+    gdjs.SecondCode.GDAllObjectsCountObjects2[i].setString("All Objects: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("ObjectsCount"))));
+}
+}{for(var i = 0, len = gdjs.SecondCode.GDFPSObjects2.length ;i < len;++i) {
+    gdjs.SecondCode.GDFPSObjects2[i].setString("FPS: " + gdjs.evtTools.common.toString(Math.round(1 / gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene))));
 }
 }}
 
@@ -2099,13 +2222,20 @@ gdjs.copyArray(runtimeScene.getObjects("X"), gdjs.SecondCode.GDXObjects2);
 
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 gdjs.SecondCode.condition1IsTrue_0.val = false;
+gdjs.SecondCode.condition2IsTrue_0.val = false;
 {
 gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDXObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
+{
+{gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18094252);
+}
 }}
-if (gdjs.SecondCode.condition1IsTrue_0.val) {
+}
+if (gdjs.SecondCode.condition2IsTrue_0.val) {
 {gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.sound.getGlobalVolume(runtimeScene) + (2));
 }{gdjs.evtTools.sound.playSound(runtimeScene, "button2.wav", false, 100, 1);
 }}
@@ -2153,13 +2283,20 @@ gdjs.copyArray(runtimeScene.getObjects("Minus"), gdjs.SecondCode.GDMinusObjects2
 
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 gdjs.SecondCode.condition1IsTrue_0.val = false;
+gdjs.SecondCode.condition2IsTrue_0.val = false;
 {
 gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.SecondCode.mapOfGDgdjs_46SecondCode_46GDMinusObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+}if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
+{
+{gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18096980);
+}
 }}
-if (gdjs.SecondCode.condition1IsTrue_0.val) {
+}
+if (gdjs.SecondCode.condition2IsTrue_0.val) {
 {gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.sound.getGlobalVolume(runtimeScene) - (2));
 }{gdjs.evtTools.sound.playSound(runtimeScene, "button2.wav", false, 100, 1);
 }}
@@ -2474,7 +2611,7 @@ gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14103564);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18127684);
 }
 }}
 }
@@ -2530,7 +2667,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDCheckpointZoneObjects2.length;i<l;++
 gdjs.SecondCode.GDCheckpointZoneObjects2.length = k;}if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14108644);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18132716);
 }
 }}
 if (gdjs.SecondCode.condition1IsTrue_0.val) {
@@ -2591,7 +2728,7 @@ gdjs.SecondCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPresse
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14111868);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18135940);
 }
 }}
 }
@@ -3145,7 +3282,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14131996);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18156044);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "splash.wav", 1, false, 60, 1);
@@ -3288,7 +3425,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDSecondaryKeyObjects2.length;i<l;++i)
 gdjs.SecondCode.GDSecondaryKeyObjects2.length = k;}if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition2IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14135668);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18159716);
 }
 }}
 }
@@ -3335,7 +3472,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDSecondaryDoorObjects1.length;i<l;++i
 gdjs.SecondCode.GDSecondaryDoorObjects1.length = k;}if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14138084);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18162132);
 }
 }}
 if (gdjs.SecondCode.condition1IsTrue_0.val) {
@@ -3353,7 +3490,7 @@ if (gdjs.SecondCode.condition1IsTrue_0.val) {
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14141956);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18166076);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "321867__nicistarful__fast-throttle-mechanic-lever.wav", 1, false, 20, 1);
@@ -3596,7 +3733,7 @@ gdjs.SecondCode.eventsList38(runtimeScene);} //End of subevents
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14151300);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18175420);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 gdjs.copyArray(gdjs.SecondCode.GDSmokeObjects2, gdjs.SecondCode.GDSmokeObjects3);
@@ -3932,7 +4069,7 @@ gdjs.copyArray(runtimeScene.getObjects("Smoke"), gdjs.SecondCode.GDSmokeObjects1
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14159356);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18183428);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "94120__bmaczero__mechanical1.wav", false, 100, 50);
@@ -3949,7 +4086,7 @@ gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14161212);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18185292);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "fishcollect.wav", 1, false, 50, 1);
@@ -3966,7 +4103,7 @@ gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14163148);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18187220);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "63527__florian-reinke__water2.wav", 1, false, 100, 1);
@@ -4075,7 +4212,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14164108);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18188180);
 }
 }}
 if (gdjs.SecondCode.condition1IsTrue_0.val) {
@@ -4242,7 +4379,7 @@ if (gdjs.SecondCode.condition6IsTrue_0.val) {
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14168132);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18192388);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "391961__ssierra1202__wood-destruction.wav", 1, false, 40, 1);
@@ -4388,7 +4525,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDPlayerObjects3.length;i<l;++i) {
 gdjs.SecondCode.GDPlayerObjects3.length = k;}if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14176492);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18203084);
 }
 }}
 if (gdjs.SecondCode.condition1IsTrue_0.val) {
@@ -4415,7 +4552,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.SecondCode.GDPlayerObjects2.length = k;}if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14177372);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18203964);
 }
 }}
 if (gdjs.SecondCode.condition1IsTrue_0.val) {
@@ -4445,7 +4582,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDPlayerObjects3.length;i<l;++i) {
 gdjs.SecondCode.GDPlayerObjects3.length = k;}if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14189172);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18215788);
 }
 }}
 if (gdjs.SecondCode.condition1IsTrue_0.val) {
@@ -4472,7 +4609,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.SecondCode.GDPlayerObjects2.length = k;}if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14190052);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18216668);
 }
 }}
 if (gdjs.SecondCode.condition1IsTrue_0.val) {
@@ -4490,7 +4627,7 @@ if (gdjs.SecondCode.condition1IsTrue_0.val) {
 gdjs.SecondCode.condition0IsTrue_0.val = false;
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition0IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14198556);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18225172);
 }
 }if (gdjs.SecondCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "540838__szegvari__storm-noise.wav", 4, true, 0, 1);
@@ -4658,7 +4795,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDCollapsingPlatformObjects2.length;i<
 gdjs.SecondCode.GDCollapsingPlatformObjects2.length = k;}if ( gdjs.SecondCode.condition2IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition3IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14178388);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18205500);
 }
 }}
 }
@@ -4685,7 +4822,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14179700);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18206292);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -4730,7 +4867,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14181132);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18207748);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -4775,7 +4912,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14182604);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18209220);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -4820,7 +4957,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14184076);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18210692);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -4879,7 +5016,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.SecondCode.GDPlayerObjects2.length = k;}if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14186076);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18212692);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -4930,7 +5067,7 @@ for(var i = 0, k = 0, l = gdjs.SecondCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.SecondCode.GDPlayerObjects2.length = k;}if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14187452);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18214068);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -5003,7 +5140,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14191108);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18217724);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -5048,7 +5185,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14192332);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18218948);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -5093,7 +5230,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14193804);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18220420);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -5138,7 +5275,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14194940);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18221556);
 }
 }if ( gdjs.SecondCode.condition1IsTrue_0.val ) {
 {
@@ -5179,7 +5316,7 @@ gdjs.SecondCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableBoolean
 }if ( gdjs.SecondCode.condition0IsTrue_0.val ) {
 {
 {gdjs.SecondCode.conditionTrue_1 = gdjs.SecondCode.condition1IsTrue_0;
-gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14197268);
+gdjs.SecondCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18223884);
 }
 }}
 if (gdjs.SecondCode.condition1IsTrue_0.val) {
@@ -5621,6 +5758,11 @@ gdjs.SecondCode.GDCheckpointZoneObjects2.length = 0;
 gdjs.SecondCode.GDCheckpointZoneObjects3.length = 0;
 gdjs.SecondCode.GDCheckpointZoneObjects4.length = 0;
 gdjs.SecondCode.GDCheckpointZoneObjects5.length = 0;
+gdjs.SecondCode.GDSmokeObjects1.length = 0;
+gdjs.SecondCode.GDSmokeObjects2.length = 0;
+gdjs.SecondCode.GDSmokeObjects3.length = 0;
+gdjs.SecondCode.GDSmokeObjects4.length = 0;
+gdjs.SecondCode.GDSmokeObjects5.length = 0;
 gdjs.SecondCode.GDBackgroundObjects1.length = 0;
 gdjs.SecondCode.GDBackgroundObjects2.length = 0;
 gdjs.SecondCode.GDBackgroundObjects3.length = 0;
@@ -5811,11 +5953,6 @@ gdjs.SecondCode.GDTrainObjects2.length = 0;
 gdjs.SecondCode.GDTrainObjects3.length = 0;
 gdjs.SecondCode.GDTrainObjects4.length = 0;
 gdjs.SecondCode.GDTrainObjects5.length = 0;
-gdjs.SecondCode.GDSmokeObjects1.length = 0;
-gdjs.SecondCode.GDSmokeObjects2.length = 0;
-gdjs.SecondCode.GDSmokeObjects3.length = 0;
-gdjs.SecondCode.GDSmokeObjects4.length = 0;
-gdjs.SecondCode.GDSmokeObjects5.length = 0;
 gdjs.SecondCode.GDWallLanternFlippedObjects1.length = 0;
 gdjs.SecondCode.GDWallLanternFlippedObjects2.length = 0;
 gdjs.SecondCode.GDWallLanternFlippedObjects3.length = 0;
@@ -6066,6 +6203,16 @@ gdjs.SecondCode.GDFallTextObjects2.length = 0;
 gdjs.SecondCode.GDFallTextObjects3.length = 0;
 gdjs.SecondCode.GDFallTextObjects4.length = 0;
 gdjs.SecondCode.GDFallTextObjects5.length = 0;
+gdjs.SecondCode.GDAllObjectsCountObjects1.length = 0;
+gdjs.SecondCode.GDAllObjectsCountObjects2.length = 0;
+gdjs.SecondCode.GDAllObjectsCountObjects3.length = 0;
+gdjs.SecondCode.GDAllObjectsCountObjects4.length = 0;
+gdjs.SecondCode.GDAllObjectsCountObjects5.length = 0;
+gdjs.SecondCode.GDFPSObjects1.length = 0;
+gdjs.SecondCode.GDFPSObjects2.length = 0;
+gdjs.SecondCode.GDFPSObjects3.length = 0;
+gdjs.SecondCode.GDFPSObjects4.length = 0;
+gdjs.SecondCode.GDFPSObjects5.length = 0;
 
 gdjs.SecondCode.eventsList60(runtimeScene);
 return;
