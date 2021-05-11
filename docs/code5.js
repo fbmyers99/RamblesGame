@@ -59,6 +59,16 @@ gdjs.FourthCode.GDSmokeObjects2= [];
 gdjs.FourthCode.GDSmokeObjects3= [];
 gdjs.FourthCode.GDSmokeObjects4= [];
 gdjs.FourthCode.GDSmokeObjects5= [];
+gdjs.FourthCode.GDSunObjects1= [];
+gdjs.FourthCode.GDSunObjects2= [];
+gdjs.FourthCode.GDSunObjects3= [];
+gdjs.FourthCode.GDSunObjects4= [];
+gdjs.FourthCode.GDSunObjects5= [];
+gdjs.FourthCode.GDSunTopObjects1= [];
+gdjs.FourthCode.GDSunTopObjects2= [];
+gdjs.FourthCode.GDSunTopObjects3= [];
+gdjs.FourthCode.GDSunTopObjects4= [];
+gdjs.FourthCode.GDSunTopObjects5= [];
 gdjs.FourthCode.GDBGObjects1= [];
 gdjs.FourthCode.GDBGObjects2= [];
 gdjs.FourthCode.GDBGObjects3= [];
@@ -981,15 +991,15 @@ gdjs.FourthCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("DeathCount"), gdjs.FourthCode.GDDeathCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("DrinksCount"), gdjs.FourthCode.GDDrinksCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("FoodCount"), gdjs.FourthCode.GDFoodCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("LevelScore"), gdjs.FourthCode.GDLevelScoreObjects2);
-gdjs.copyArray(runtimeScene.getObjects("RespawnCount"), gdjs.FourthCode.GDRespawnCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("RestartCount"), gdjs.FourthCode.GDRestartCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("RestartLevel"), gdjs.FourthCode.GDRestartLevelObjects2);
-gdjs.copyArray(runtimeScene.getObjects("ReturnToMenu"), gdjs.FourthCode.GDReturnToMenuObjects2);
-gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.FourthCode.GDTotalScoreObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DeathCount"), gdjs.FourthCode.GDDeathCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DrinksCount"), gdjs.FourthCode.GDDrinksCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("FoodCount"), gdjs.FourthCode.GDFoodCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("LevelScore"), gdjs.FourthCode.GDLevelScoreObjects3);
+gdjs.copyArray(runtimeScene.getObjects("RespawnCount"), gdjs.FourthCode.GDRespawnCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("RestartCount"), gdjs.FourthCode.GDRestartCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("RestartLevel"), gdjs.FourthCode.GDRestartLevelObjects3);
+gdjs.copyArray(runtimeScene.getObjects("ReturnToMenu"), gdjs.FourthCode.GDReturnToMenuObjects3);
+gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.FourthCode.GDTotalScoreObjects3);
 
 gdjs.FourthCode.condition0IsTrue_0.val = false;
 gdjs.FourthCode.condition1IsTrue_0.val = false;
@@ -1001,86 +1011,86 @@ gdjs.FourthCode.condition6IsTrue_0.val = false;
 gdjs.FourthCode.condition7IsTrue_0.val = false;
 gdjs.FourthCode.condition8IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDDeathCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDDeathCountObjects2[i].getVariableString(gdjs.FourthCode.GDDeathCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDDeathCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDDeathCountObjects3[i].getVariableString(gdjs.FourthCode.GDDeathCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition0IsTrue_0.val = true;
-        gdjs.FourthCode.GDDeathCountObjects2[k] = gdjs.FourthCode.GDDeathCountObjects2[i];
+        gdjs.FourthCode.GDDeathCountObjects3[k] = gdjs.FourthCode.GDDeathCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDDeathCountObjects2.length = k;}if ( gdjs.FourthCode.condition0IsTrue_0.val ) {
+gdjs.FourthCode.GDDeathCountObjects3.length = k;}if ( gdjs.FourthCode.condition0IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDFoodCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDFoodCountObjects2[i].getVariableString(gdjs.FourthCode.GDFoodCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDFoodCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDFoodCountObjects3[i].getVariableString(gdjs.FourthCode.GDFoodCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition1IsTrue_0.val = true;
-        gdjs.FourthCode.GDFoodCountObjects2[k] = gdjs.FourthCode.GDFoodCountObjects2[i];
+        gdjs.FourthCode.GDFoodCountObjects3[k] = gdjs.FourthCode.GDFoodCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDFoodCountObjects2.length = k;}if ( gdjs.FourthCode.condition1IsTrue_0.val ) {
+gdjs.FourthCode.GDFoodCountObjects3.length = k;}if ( gdjs.FourthCode.condition1IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDDrinksCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDDrinksCountObjects2[i].getVariableString(gdjs.FourthCode.GDDrinksCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDDrinksCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDDrinksCountObjects3[i].getVariableString(gdjs.FourthCode.GDDrinksCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition2IsTrue_0.val = true;
-        gdjs.FourthCode.GDDrinksCountObjects2[k] = gdjs.FourthCode.GDDrinksCountObjects2[i];
+        gdjs.FourthCode.GDDrinksCountObjects3[k] = gdjs.FourthCode.GDDrinksCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDDrinksCountObjects2.length = k;}if ( gdjs.FourthCode.condition2IsTrue_0.val ) {
+gdjs.FourthCode.GDDrinksCountObjects3.length = k;}if ( gdjs.FourthCode.condition2IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDRespawnCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDRespawnCountObjects2[i].getVariableString(gdjs.FourthCode.GDRespawnCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDRespawnCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDRespawnCountObjects3[i].getVariableString(gdjs.FourthCode.GDRespawnCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition3IsTrue_0.val = true;
-        gdjs.FourthCode.GDRespawnCountObjects2[k] = gdjs.FourthCode.GDRespawnCountObjects2[i];
+        gdjs.FourthCode.GDRespawnCountObjects3[k] = gdjs.FourthCode.GDRespawnCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDRespawnCountObjects2.length = k;}if ( gdjs.FourthCode.condition3IsTrue_0.val ) {
+gdjs.FourthCode.GDRespawnCountObjects3.length = k;}if ( gdjs.FourthCode.condition3IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDRestartCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDRestartCountObjects2[i].getVariableString(gdjs.FourthCode.GDRestartCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDRestartCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDRestartCountObjects3[i].getVariableString(gdjs.FourthCode.GDRestartCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition4IsTrue_0.val = true;
-        gdjs.FourthCode.GDRestartCountObjects2[k] = gdjs.FourthCode.GDRestartCountObjects2[i];
+        gdjs.FourthCode.GDRestartCountObjects3[k] = gdjs.FourthCode.GDRestartCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDRestartCountObjects2.length = k;}if ( gdjs.FourthCode.condition4IsTrue_0.val ) {
+gdjs.FourthCode.GDRestartCountObjects3.length = k;}if ( gdjs.FourthCode.condition4IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDLevelScoreObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDLevelScoreObjects2[i].getVariableString(gdjs.FourthCode.GDLevelScoreObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDLevelScoreObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDLevelScoreObjects3[i].getVariableString(gdjs.FourthCode.GDLevelScoreObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition5IsTrue_0.val = true;
-        gdjs.FourthCode.GDLevelScoreObjects2[k] = gdjs.FourthCode.GDLevelScoreObjects2[i];
+        gdjs.FourthCode.GDLevelScoreObjects3[k] = gdjs.FourthCode.GDLevelScoreObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDLevelScoreObjects2.length = k;}if ( gdjs.FourthCode.condition5IsTrue_0.val ) {
+gdjs.FourthCode.GDLevelScoreObjects3.length = k;}if ( gdjs.FourthCode.condition5IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDTotalScoreObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDTotalScoreObjects2[i].getVariableString(gdjs.FourthCode.GDTotalScoreObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDTotalScoreObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDTotalScoreObjects3[i].getVariableString(gdjs.FourthCode.GDTotalScoreObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition6IsTrue_0.val = true;
-        gdjs.FourthCode.GDTotalScoreObjects2[k] = gdjs.FourthCode.GDTotalScoreObjects2[i];
+        gdjs.FourthCode.GDTotalScoreObjects3[k] = gdjs.FourthCode.GDTotalScoreObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDTotalScoreObjects2.length = k;}if ( gdjs.FourthCode.condition6IsTrue_0.val ) {
+gdjs.FourthCode.GDTotalScoreObjects3.length = k;}if ( gdjs.FourthCode.condition6IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDRestartLevelObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDRestartLevelObjects2[i].getVariableString(gdjs.FourthCode.GDRestartLevelObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDRestartLevelObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDRestartLevelObjects3[i].getVariableString(gdjs.FourthCode.GDRestartLevelObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition7IsTrue_0.val = true;
-        gdjs.FourthCode.GDRestartLevelObjects2[k] = gdjs.FourthCode.GDRestartLevelObjects2[i];
+        gdjs.FourthCode.GDRestartLevelObjects3[k] = gdjs.FourthCode.GDRestartLevelObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDRestartLevelObjects2.length = k;}if ( gdjs.FourthCode.condition7IsTrue_0.val ) {
+gdjs.FourthCode.GDRestartLevelObjects3.length = k;}if ( gdjs.FourthCode.condition7IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDReturnToMenuObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDReturnToMenuObjects2[i].getVariableString(gdjs.FourthCode.GDReturnToMenuObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDReturnToMenuObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDReturnToMenuObjects3[i].getVariableString(gdjs.FourthCode.GDReturnToMenuObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition8IsTrue_0.val = true;
-        gdjs.FourthCode.GDReturnToMenuObjects2[k] = gdjs.FourthCode.GDReturnToMenuObjects2[i];
+        gdjs.FourthCode.GDReturnToMenuObjects3[k] = gdjs.FourthCode.GDReturnToMenuObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDReturnToMenuObjects2.length = k;}}
+gdjs.FourthCode.GDReturnToMenuObjects3.length = k;}}
 }
 }
 }
@@ -1089,41 +1099,64 @@ gdjs.FourthCode.GDReturnToMenuObjects2.length = k;}}
 }
 }
 if (gdjs.FourthCode.condition8IsTrue_0.val) {
-/* Reuse gdjs.FourthCode.GDDeathCountObjects2 */
-/* Reuse gdjs.FourthCode.GDDrinksCountObjects2 */
-/* Reuse gdjs.FourthCode.GDFoodCountObjects2 */
-/* Reuse gdjs.FourthCode.GDLevelScoreObjects2 */
-/* Reuse gdjs.FourthCode.GDRespawnCountObjects2 */
-/* Reuse gdjs.FourthCode.GDRestartCountObjects2 */
-/* Reuse gdjs.FourthCode.GDRestartLevelObjects2 */
-/* Reuse gdjs.FourthCode.GDReturnToMenuObjects2 */
-/* Reuse gdjs.FourthCode.GDTotalScoreObjects2 */
-{for(var i = 0, len = gdjs.FourthCode.GDDeathCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDDeathCountObjects2[i].hide(false);
+/* Reuse gdjs.FourthCode.GDDeathCountObjects3 */
+/* Reuse gdjs.FourthCode.GDDrinksCountObjects3 */
+/* Reuse gdjs.FourthCode.GDFoodCountObjects3 */
+/* Reuse gdjs.FourthCode.GDLevelScoreObjects3 */
+/* Reuse gdjs.FourthCode.GDRespawnCountObjects3 */
+/* Reuse gdjs.FourthCode.GDRestartCountObjects3 */
+/* Reuse gdjs.FourthCode.GDRestartLevelObjects3 */
+/* Reuse gdjs.FourthCode.GDReturnToMenuObjects3 */
+/* Reuse gdjs.FourthCode.GDTotalScoreObjects3 */
+{for(var i = 0, len = gdjs.FourthCode.GDDeathCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDDeathCountObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDFoodCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDFoodCountObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDFoodCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDFoodCountObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDDrinksCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDDrinksCountObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDDrinksCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDDrinksCountObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDRespawnCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDRespawnCountObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDRespawnCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDRespawnCountObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDRestartCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDRestartCountObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDRestartCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDRestartCountObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDLevelScoreObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDLevelScoreObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDLevelScoreObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDLevelScoreObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDTotalScoreObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDTotalScoreObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDTotalScoreObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDTotalScoreObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDRestartLevelObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDRestartLevelObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDRestartLevelObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDRestartLevelObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDReturnToMenuObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDReturnToMenuObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDReturnToMenuObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDReturnToMenuObjects3[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("BoxBG"), gdjs.FourthCode.GDBoxBGObjects2);
+
+gdjs.FourthCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDBoxBGObjects2.length;i<l;++i) {
+    if ( !(gdjs.FourthCode.GDBoxBGObjects2[i].getVariableString(gdjs.FourthCode.GDBoxBGObjects2[i].getVariables().getFromIndex(2)) == "end") ) {
+        gdjs.FourthCode.condition0IsTrue_0.val = true;
+        gdjs.FourthCode.GDBoxBGObjects2[k] = gdjs.FourthCode.GDBoxBGObjects2[i];
+        ++k;
+    }
+}
+gdjs.FourthCode.GDBoxBGObjects2.length = k;}if (gdjs.FourthCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.FourthCode.GDBoxBGObjects2 */
+{for(var i = 0, len = gdjs.FourthCode.GDBoxBGObjects2.length ;i < len;++i) {
+    gdjs.FourthCode.GDBoxBGObjects2[i].hide(false);
 }
 }}
 
@@ -1134,15 +1167,15 @@ if (gdjs.FourthCode.condition8IsTrue_0.val) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("DeathCount"), gdjs.FourthCode.GDDeathCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("DrinksCount"), gdjs.FourthCode.GDDrinksCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("FoodCount"), gdjs.FourthCode.GDFoodCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("LevelScore"), gdjs.FourthCode.GDLevelScoreObjects2);
-gdjs.copyArray(runtimeScene.getObjects("RespawnCount"), gdjs.FourthCode.GDRespawnCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("RestartCount"), gdjs.FourthCode.GDRestartCountObjects2);
-gdjs.copyArray(runtimeScene.getObjects("RestartLevel"), gdjs.FourthCode.GDRestartLevelObjects2);
-gdjs.copyArray(runtimeScene.getObjects("ReturnToMenu"), gdjs.FourthCode.GDReturnToMenuObjects2);
-gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.FourthCode.GDTotalScoreObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DeathCount"), gdjs.FourthCode.GDDeathCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("DrinksCount"), gdjs.FourthCode.GDDrinksCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("FoodCount"), gdjs.FourthCode.GDFoodCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("LevelScore"), gdjs.FourthCode.GDLevelScoreObjects3);
+gdjs.copyArray(runtimeScene.getObjects("RespawnCount"), gdjs.FourthCode.GDRespawnCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("RestartCount"), gdjs.FourthCode.GDRestartCountObjects3);
+gdjs.copyArray(runtimeScene.getObjects("RestartLevel"), gdjs.FourthCode.GDRestartLevelObjects3);
+gdjs.copyArray(runtimeScene.getObjects("ReturnToMenu"), gdjs.FourthCode.GDReturnToMenuObjects3);
+gdjs.copyArray(runtimeScene.getObjects("TotalScore"), gdjs.FourthCode.GDTotalScoreObjects3);
 
 gdjs.FourthCode.condition0IsTrue_0.val = false;
 gdjs.FourthCode.condition1IsTrue_0.val = false;
@@ -1154,86 +1187,86 @@ gdjs.FourthCode.condition6IsTrue_0.val = false;
 gdjs.FourthCode.condition7IsTrue_0.val = false;
 gdjs.FourthCode.condition8IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDDeathCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDDeathCountObjects2[i].getVariableString(gdjs.FourthCode.GDDeathCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDDeathCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDDeathCountObjects3[i].getVariableString(gdjs.FourthCode.GDDeathCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition0IsTrue_0.val = true;
-        gdjs.FourthCode.GDDeathCountObjects2[k] = gdjs.FourthCode.GDDeathCountObjects2[i];
+        gdjs.FourthCode.GDDeathCountObjects3[k] = gdjs.FourthCode.GDDeathCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDDeathCountObjects2.length = k;}if ( gdjs.FourthCode.condition0IsTrue_0.val ) {
+gdjs.FourthCode.GDDeathCountObjects3.length = k;}if ( gdjs.FourthCode.condition0IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDFoodCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDFoodCountObjects2[i].getVariableString(gdjs.FourthCode.GDFoodCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDFoodCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDFoodCountObjects3[i].getVariableString(gdjs.FourthCode.GDFoodCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition1IsTrue_0.val = true;
-        gdjs.FourthCode.GDFoodCountObjects2[k] = gdjs.FourthCode.GDFoodCountObjects2[i];
+        gdjs.FourthCode.GDFoodCountObjects3[k] = gdjs.FourthCode.GDFoodCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDFoodCountObjects2.length = k;}if ( gdjs.FourthCode.condition1IsTrue_0.val ) {
+gdjs.FourthCode.GDFoodCountObjects3.length = k;}if ( gdjs.FourthCode.condition1IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDDrinksCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDDrinksCountObjects2[i].getVariableString(gdjs.FourthCode.GDDrinksCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDDrinksCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDDrinksCountObjects3[i].getVariableString(gdjs.FourthCode.GDDrinksCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition2IsTrue_0.val = true;
-        gdjs.FourthCode.GDDrinksCountObjects2[k] = gdjs.FourthCode.GDDrinksCountObjects2[i];
+        gdjs.FourthCode.GDDrinksCountObjects3[k] = gdjs.FourthCode.GDDrinksCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDDrinksCountObjects2.length = k;}if ( gdjs.FourthCode.condition2IsTrue_0.val ) {
+gdjs.FourthCode.GDDrinksCountObjects3.length = k;}if ( gdjs.FourthCode.condition2IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDRespawnCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDRespawnCountObjects2[i].getVariableString(gdjs.FourthCode.GDRespawnCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDRespawnCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDRespawnCountObjects3[i].getVariableString(gdjs.FourthCode.GDRespawnCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition3IsTrue_0.val = true;
-        gdjs.FourthCode.GDRespawnCountObjects2[k] = gdjs.FourthCode.GDRespawnCountObjects2[i];
+        gdjs.FourthCode.GDRespawnCountObjects3[k] = gdjs.FourthCode.GDRespawnCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDRespawnCountObjects2.length = k;}if ( gdjs.FourthCode.condition3IsTrue_0.val ) {
+gdjs.FourthCode.GDRespawnCountObjects3.length = k;}if ( gdjs.FourthCode.condition3IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDRestartCountObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDRestartCountObjects2[i].getVariableString(gdjs.FourthCode.GDRestartCountObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDRestartCountObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDRestartCountObjects3[i].getVariableString(gdjs.FourthCode.GDRestartCountObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition4IsTrue_0.val = true;
-        gdjs.FourthCode.GDRestartCountObjects2[k] = gdjs.FourthCode.GDRestartCountObjects2[i];
+        gdjs.FourthCode.GDRestartCountObjects3[k] = gdjs.FourthCode.GDRestartCountObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDRestartCountObjects2.length = k;}if ( gdjs.FourthCode.condition4IsTrue_0.val ) {
+gdjs.FourthCode.GDRestartCountObjects3.length = k;}if ( gdjs.FourthCode.condition4IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDLevelScoreObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDLevelScoreObjects2[i].getVariableString(gdjs.FourthCode.GDLevelScoreObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDLevelScoreObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDLevelScoreObjects3[i].getVariableString(gdjs.FourthCode.GDLevelScoreObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition5IsTrue_0.val = true;
-        gdjs.FourthCode.GDLevelScoreObjects2[k] = gdjs.FourthCode.GDLevelScoreObjects2[i];
+        gdjs.FourthCode.GDLevelScoreObjects3[k] = gdjs.FourthCode.GDLevelScoreObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDLevelScoreObjects2.length = k;}if ( gdjs.FourthCode.condition5IsTrue_0.val ) {
+gdjs.FourthCode.GDLevelScoreObjects3.length = k;}if ( gdjs.FourthCode.condition5IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDTotalScoreObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDTotalScoreObjects2[i].getVariableString(gdjs.FourthCode.GDTotalScoreObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDTotalScoreObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDTotalScoreObjects3[i].getVariableString(gdjs.FourthCode.GDTotalScoreObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition6IsTrue_0.val = true;
-        gdjs.FourthCode.GDTotalScoreObjects2[k] = gdjs.FourthCode.GDTotalScoreObjects2[i];
+        gdjs.FourthCode.GDTotalScoreObjects3[k] = gdjs.FourthCode.GDTotalScoreObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDTotalScoreObjects2.length = k;}if ( gdjs.FourthCode.condition6IsTrue_0.val ) {
+gdjs.FourthCode.GDTotalScoreObjects3.length = k;}if ( gdjs.FourthCode.condition6IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDRestartLevelObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDRestartLevelObjects2[i].getVariableString(gdjs.FourthCode.GDRestartLevelObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDRestartLevelObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDRestartLevelObjects3[i].getVariableString(gdjs.FourthCode.GDRestartLevelObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition7IsTrue_0.val = true;
-        gdjs.FourthCode.GDRestartLevelObjects2[k] = gdjs.FourthCode.GDRestartLevelObjects2[i];
+        gdjs.FourthCode.GDRestartLevelObjects3[k] = gdjs.FourthCode.GDRestartLevelObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDRestartLevelObjects2.length = k;}if ( gdjs.FourthCode.condition7IsTrue_0.val ) {
+gdjs.FourthCode.GDRestartLevelObjects3.length = k;}if ( gdjs.FourthCode.condition7IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.FourthCode.GDReturnToMenuObjects2.length;i<l;++i) {
-    if ( gdjs.FourthCode.GDReturnToMenuObjects2[i].getVariableString(gdjs.FourthCode.GDReturnToMenuObjects2[i].getVariables().getFromIndex(0)) == "popup" ) {
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDReturnToMenuObjects3.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDReturnToMenuObjects3[i].getVariableString(gdjs.FourthCode.GDReturnToMenuObjects3[i].getVariables().getFromIndex(0)) == "popup" ) {
         gdjs.FourthCode.condition8IsTrue_0.val = true;
-        gdjs.FourthCode.GDReturnToMenuObjects2[k] = gdjs.FourthCode.GDReturnToMenuObjects2[i];
+        gdjs.FourthCode.GDReturnToMenuObjects3[k] = gdjs.FourthCode.GDReturnToMenuObjects3[i];
         ++k;
     }
 }
-gdjs.FourthCode.GDReturnToMenuObjects2.length = k;}}
+gdjs.FourthCode.GDReturnToMenuObjects3.length = k;}}
 }
 }
 }
@@ -1242,48 +1275,61 @@ gdjs.FourthCode.GDReturnToMenuObjects2.length = k;}}
 }
 }
 if (gdjs.FourthCode.condition8IsTrue_0.val) {
-/* Reuse gdjs.FourthCode.GDDeathCountObjects2 */
-/* Reuse gdjs.FourthCode.GDDrinksCountObjects2 */
-/* Reuse gdjs.FourthCode.GDFoodCountObjects2 */
-/* Reuse gdjs.FourthCode.GDLevelScoreObjects2 */
-/* Reuse gdjs.FourthCode.GDRespawnCountObjects2 */
-/* Reuse gdjs.FourthCode.GDRestartCountObjects2 */
-/* Reuse gdjs.FourthCode.GDRestartLevelObjects2 */
-/* Reuse gdjs.FourthCode.GDReturnToMenuObjects2 */
-/* Reuse gdjs.FourthCode.GDTotalScoreObjects2 */
-{for(var i = 0, len = gdjs.FourthCode.GDDeathCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDDeathCountObjects2[i].hide();
+/* Reuse gdjs.FourthCode.GDDeathCountObjects3 */
+/* Reuse gdjs.FourthCode.GDDrinksCountObjects3 */
+/* Reuse gdjs.FourthCode.GDFoodCountObjects3 */
+/* Reuse gdjs.FourthCode.GDLevelScoreObjects3 */
+/* Reuse gdjs.FourthCode.GDRespawnCountObjects3 */
+/* Reuse gdjs.FourthCode.GDRestartCountObjects3 */
+/* Reuse gdjs.FourthCode.GDRestartLevelObjects3 */
+/* Reuse gdjs.FourthCode.GDReturnToMenuObjects3 */
+/* Reuse gdjs.FourthCode.GDTotalScoreObjects3 */
+{for(var i = 0, len = gdjs.FourthCode.GDDeathCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDDeathCountObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDFoodCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDFoodCountObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDFoodCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDFoodCountObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDDrinksCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDDrinksCountObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDDrinksCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDDrinksCountObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDRespawnCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDRespawnCountObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDRespawnCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDRespawnCountObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDRestartCountObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDRestartCountObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDRestartCountObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDRestartCountObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDLevelScoreObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDLevelScoreObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDLevelScoreObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDLevelScoreObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDTotalScoreObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDTotalScoreObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDTotalScoreObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDTotalScoreObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDRestartLevelObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDRestartLevelObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDRestartLevelObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDRestartLevelObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDReturnToMenuObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDReturnToMenuObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDReturnToMenuObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDReturnToMenuObjects3[i].hide();
 }
 }}
 
 }
 
 
-};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBGObjects2ObjectsGDgdjs_46FourthCode_46GDLockKeyObjects2ObjectsGDgdjs_46FourthCode_46GDLockKeyFlippedObjects2ObjectsGDgdjs_46FourthCode_46GDConcretePlatformObjects2ObjectsGDgdjs_46FourthCode_46GDTallPlatformObjects2ObjectsGDgdjs_46FourthCode_46GDWallPlatformLeftObjects2ObjectsGDgdjs_46FourthCode_46GDWallPlatformRightObjects2ObjectsGDgdjs_46FourthCode_46GDColumnObjects2ObjectsGDgdjs_46FourthCode_46GDHangingPlatformObjects2ObjectsGDgdjs_46FourthCode_46GDHangingDoubleObjects2ObjectsGDgdjs_46FourthCode_46GDBasicBoatObjects2ObjectsGDgdjs_46FourthCode_46GDBasicBoatFlippedObjects2ObjectsGDgdjs_46FourthCode_46GDBox1Objects2ObjectsGDgdjs_46FourthCode_46GDBox2Objects2ObjectsGDgdjs_46FourthCode_46GDBox3Objects2ObjectsGDgdjs_46FourthCode_46GDBarrelObjects2ObjectsGDgdjs_46FourthCode_46GDPierObjects2ObjectsGDgdjs_46FourthCode_46GDSinkingZoneObjects2ObjectsGDgdjs_46FourthCode_46GDMovingBoatObjects2ObjectsGDgdjs_46FourthCode_46GDBoatStartObjects2ObjectsGDgdjs_46FourthCode_46GDPopupObjects2ObjectsGDgdjs_46FourthCode_46GDBoxBGObjects2ObjectsGDgdjs_46FourthCode_46GDReturnToMenuObjects2ObjectsGDgdjs_46FourthCode_46GDRestartLevelObjects2ObjectsGDgdjs_46FourthCode_46GDHydrophobicObjects2ObjectsGDgdjs_46FourthCode_46GDHydroDescObjects2ObjectsGDgdjs_46FourthCode_46GDOnTheMoonObjects2ObjectsGDgdjs_46FourthCode_46GDMoonDescObjects2ObjectsGDgdjs_46FourthCode_46GDExpressTravelObjects2ObjectsGDgdjs_46FourthCode_46GDExpressDescObjects2ObjectsGDgdjs_46FourthCode_46GDMasterKeyObjects2ObjectsGDgdjs_46FourthCode_46GDKeyDescObjects2ObjectsGDgdjs_46FourthCode_46GDXButtonObjects2ObjectsGDgdjs_46FourthCode_46GDText1Objects2ObjectsGDgdjs_46FourthCode_46GDText2Objects2ObjectsGDgdjs_46FourthCode_46GDText4Objects2ObjectsGDgdjs_46FourthCode_46GDText3Objects2ObjectsGDgdjs_46FourthCode_46GDHangingLampObjects2ObjectsGDgdjs_46FourthCode_46GDDrinksCountObjects2ObjectsGDgdjs_46FourthCode_46GDDeathCountObjects2ObjectsGDgdjs_46FourthCode_46GDFoodCountObjects2ObjectsGDgdjs_46FourthCode_46GDRespawnCountObjects2ObjectsGDgdjs_46FourthCode_46GDRestartCountObjects2ObjectsGDgdjs_46FourthCode_46GDLevelScoreObjects2ObjectsGDgdjs_46FourthCode_46GDTotalScoreObjects2ObjectsGDgdjs_46FourthCode_46GDRespawnObjects2ObjectsGDgdjs_46FourthCode_46GDAudioObjects2ObjectsGDgdjs_46FourthCode_46GDVolumeLevelObjects2ObjectsGDgdjs_46FourthCode_46GDMinusObjects2ObjectsGDgdjs_46FourthCode_46GDPauseTabObjects2ObjectsGDgdjs_46FourthCode_46GDXObjects2ObjectsGDgdjs_46FourthCode_46GDStatusObjects2ObjectsGDgdjs_46FourthCode_46GDNoJumpSoundObjects2ObjectsGDgdjs_46FourthCode_46GDPlayerObjects2ObjectsGDgdjs_46FourthCode_46GDBasePlatformObjects2ObjectsGDgdjs_46FourthCode_46GDLanternObjects2ObjectsGDgdjs_46FourthCode_46GDBarrierObjects2ObjectsGDgdjs_46FourthCode_46GDLanternTopObjects2ObjectsGDgdjs_46FourthCode_46GDWaterObjects2ObjectsGDgdjs_46FourthCode_46GDWaterSpeedChangeObjects2ObjectsGDgdjs_46FourthCode_46GDLadderObjects2ObjectsGDgdjs_46FourthCode_46GDWaterEdgeObjects2ObjectsGDgdjs_46FourthCode_46GDCheckpointObjects2ObjectsGDgdjs_46FourthCode_46GDCheckpointZoneObjects2ObjectsGDgdjs_46FourthCode_46GDSmokeObjects2ObjectsGDgdjs_46FourthCode_46GDAllObjectsCountObjects2ObjectsGDgdjs_46FourthCode_46GDFPSObjects2ObjectsGDgdjs_46FourthCode_46GDFinalScoreObjects2ObjectsGDgdjs_46FourthCode_46GDEndRestartObjects2ObjectsGDgdjs_46FourthCode_46GDEndReturnObjects2ObjectsGDgdjs_46FourthCode_46GDTheEndObjects2ObjectsGDgdjs_46FourthCode_46GDEndObjects2ObjectsGDgdjs_46FourthCode_46GDClosingScreenObjects2ObjectsGDgdjs_46FourthCode_46GDJournalAchievementObjects2ObjectsGDgdjs_46FourthCode_46GDJournalText1Objects2ObjectsGDgdjs_46FourthCode_46GDJournalText2Objects2ObjectsGDgdjs_46FourthCode_46GDJournalText3Objects2Objects = Hashtable.newFrom({"BG": gdjs.FourthCode.GDBGObjects2, "LockKey": gdjs.FourthCode.GDLockKeyObjects2, "LockKeyFlipped": gdjs.FourthCode.GDLockKeyFlippedObjects2, "ConcretePlatform": gdjs.FourthCode.GDConcretePlatformObjects2, "TallPlatform": gdjs.FourthCode.GDTallPlatformObjects2, "WallPlatformLeft": gdjs.FourthCode.GDWallPlatformLeftObjects2, "WallPlatformRight": gdjs.FourthCode.GDWallPlatformRightObjects2, "Column": gdjs.FourthCode.GDColumnObjects2, "HangingPlatform": gdjs.FourthCode.GDHangingPlatformObjects2, "HangingDouble": gdjs.FourthCode.GDHangingDoubleObjects2, "BasicBoat": gdjs.FourthCode.GDBasicBoatObjects2, "BasicBoatFlipped": gdjs.FourthCode.GDBasicBoatFlippedObjects2, "Box1": gdjs.FourthCode.GDBox1Objects2, "Box2": gdjs.FourthCode.GDBox2Objects2, "Box3": gdjs.FourthCode.GDBox3Objects2, "Barrel": gdjs.FourthCode.GDBarrelObjects2, "Pier": gdjs.FourthCode.GDPierObjects2, "SinkingZone": gdjs.FourthCode.GDSinkingZoneObjects2, "MovingBoat": gdjs.FourthCode.GDMovingBoatObjects2, "BoatStart": gdjs.FourthCode.GDBoatStartObjects2, "Popup": gdjs.FourthCode.GDPopupObjects2, "BoxBG": gdjs.FourthCode.GDBoxBGObjects2, "ReturnToMenu": gdjs.FourthCode.GDReturnToMenuObjects2, "RestartLevel": gdjs.FourthCode.GDRestartLevelObjects2, "Hydrophobic": gdjs.FourthCode.GDHydrophobicObjects2, "HydroDesc": gdjs.FourthCode.GDHydroDescObjects2, "OnTheMoon": gdjs.FourthCode.GDOnTheMoonObjects2, "MoonDesc": gdjs.FourthCode.GDMoonDescObjects2, "ExpressTravel": gdjs.FourthCode.GDExpressTravelObjects2, "ExpressDesc": gdjs.FourthCode.GDExpressDescObjects2, "MasterKey": gdjs.FourthCode.GDMasterKeyObjects2, "KeyDesc": gdjs.FourthCode.GDKeyDescObjects2, "XButton": gdjs.FourthCode.GDXButtonObjects2, "Text1": gdjs.FourthCode.GDText1Objects2, "Text2": gdjs.FourthCode.GDText2Objects2, "Text4": gdjs.FourthCode.GDText4Objects2, "Text3": gdjs.FourthCode.GDText3Objects2, "HangingLamp": gdjs.FourthCode.GDHangingLampObjects2, "DrinksCount": gdjs.FourthCode.GDDrinksCountObjects2, "DeathCount": gdjs.FourthCode.GDDeathCountObjects2, "FoodCount": gdjs.FourthCode.GDFoodCountObjects2, "RespawnCount": gdjs.FourthCode.GDRespawnCountObjects2, "RestartCount": gdjs.FourthCode.GDRestartCountObjects2, "LevelScore": gdjs.FourthCode.GDLevelScoreObjects2, "TotalScore": gdjs.FourthCode.GDTotalScoreObjects2, "Respawn": gdjs.FourthCode.GDRespawnObjects2, "Audio": gdjs.FourthCode.GDAudioObjects2, "VolumeLevel": gdjs.FourthCode.GDVolumeLevelObjects2, "Minus": gdjs.FourthCode.GDMinusObjects2, "PauseTab": gdjs.FourthCode.GDPauseTabObjects2, "X": gdjs.FourthCode.GDXObjects2, "Status": gdjs.FourthCode.GDStatusObjects2, "NoJumpSound": gdjs.FourthCode.GDNoJumpSoundObjects2, "Player": gdjs.FourthCode.GDPlayerObjects2, "BasePlatform": gdjs.FourthCode.GDBasePlatformObjects2, "Lantern": gdjs.FourthCode.GDLanternObjects2, "Barrier": gdjs.FourthCode.GDBarrierObjects2, "LanternTop": gdjs.FourthCode.GDLanternTopObjects2, "Water": gdjs.FourthCode.GDWaterObjects2, "WaterSpeedChange": gdjs.FourthCode.GDWaterSpeedChangeObjects2, "Ladder": gdjs.FourthCode.GDLadderObjects2, "WaterEdge": gdjs.FourthCode.GDWaterEdgeObjects2, "Checkpoint": gdjs.FourthCode.GDCheckpointObjects2, "CheckpointZone": gdjs.FourthCode.GDCheckpointZoneObjects2, "Smoke": gdjs.FourthCode.GDSmokeObjects2, "AllObjectsCount": gdjs.FourthCode.GDAllObjectsCountObjects2, "FPS": gdjs.FourthCode.GDFPSObjects2, "FinalScore": gdjs.FourthCode.GDFinalScoreObjects2, "EndRestart": gdjs.FourthCode.GDEndRestartObjects2, "EndReturn": gdjs.FourthCode.GDEndReturnObjects2, "TheEnd": gdjs.FourthCode.GDTheEndObjects2, "End": gdjs.FourthCode.GDEndObjects2, "ClosingScreen": gdjs.FourthCode.GDClosingScreenObjects2, "JournalAchievement": gdjs.FourthCode.GDJournalAchievementObjects2, "JournalText1": gdjs.FourthCode.GDJournalText1Objects2, "JournalText2": gdjs.FourthCode.GDJournalText2Objects2, "JournalText3": gdjs.FourthCode.GDJournalText3Objects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.FourthCode.GDXObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.FourthCode.GDXObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.FourthCode.GDXObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.FourthCode.GDMinusObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.FourthCode.GDMinusObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.FourthCode.GDMinusObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoxBGObjects3Objects = Hashtable.newFrom({"BoxBG": gdjs.FourthCode.GDBoxBGObjects3});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoxBGObjects3Objects = Hashtable.newFrom({"BoxBG": gdjs.FourthCode.GDBoxBGObjects3});gdjs.FourthCode.eventsList17 = function(runtimeScene) {
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("BoxBG"), gdjs.FourthCode.GDBoxBGObjects2);
+{for(var i = 0, len = gdjs.FourthCode.GDBoxBGObjects2.length ;i < len;++i) {
+    gdjs.FourthCode.GDBoxBGObjects2[i].hide();
+}
+}}
+
+}
+
+
+};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBGObjects2ObjectsGDgdjs_46FourthCode_46GDLockKeyObjects2ObjectsGDgdjs_46FourthCode_46GDLockKeyFlippedObjects2ObjectsGDgdjs_46FourthCode_46GDConcretePlatformObjects2ObjectsGDgdjs_46FourthCode_46GDTallPlatformObjects2ObjectsGDgdjs_46FourthCode_46GDWallPlatformLeftObjects2ObjectsGDgdjs_46FourthCode_46GDWallPlatformRightObjects2ObjectsGDgdjs_46FourthCode_46GDColumnObjects2ObjectsGDgdjs_46FourthCode_46GDHangingPlatformObjects2ObjectsGDgdjs_46FourthCode_46GDHangingDoubleObjects2ObjectsGDgdjs_46FourthCode_46GDBasicBoatObjects2ObjectsGDgdjs_46FourthCode_46GDBasicBoatFlippedObjects2ObjectsGDgdjs_46FourthCode_46GDBox1Objects2ObjectsGDgdjs_46FourthCode_46GDBox2Objects2ObjectsGDgdjs_46FourthCode_46GDBox3Objects2ObjectsGDgdjs_46FourthCode_46GDBarrelObjects2ObjectsGDgdjs_46FourthCode_46GDPierObjects2ObjectsGDgdjs_46FourthCode_46GDSinkingZoneObjects2ObjectsGDgdjs_46FourthCode_46GDMovingBoatObjects2ObjectsGDgdjs_46FourthCode_46GDBoatStartObjects2ObjectsGDgdjs_46FourthCode_46GDPopupObjects2ObjectsGDgdjs_46FourthCode_46GDBoxBGObjects2ObjectsGDgdjs_46FourthCode_46GDReturnToMenuObjects2ObjectsGDgdjs_46FourthCode_46GDRestartLevelObjects2ObjectsGDgdjs_46FourthCode_46GDHydrophobicObjects2ObjectsGDgdjs_46FourthCode_46GDHydroDescObjects2ObjectsGDgdjs_46FourthCode_46GDOnTheMoonObjects2ObjectsGDgdjs_46FourthCode_46GDMoonDescObjects2ObjectsGDgdjs_46FourthCode_46GDExpressTravelObjects2ObjectsGDgdjs_46FourthCode_46GDExpressDescObjects2ObjectsGDgdjs_46FourthCode_46GDMasterKeyObjects2ObjectsGDgdjs_46FourthCode_46GDKeyDescObjects2ObjectsGDgdjs_46FourthCode_46GDXButtonObjects2ObjectsGDgdjs_46FourthCode_46GDText1Objects2ObjectsGDgdjs_46FourthCode_46GDText2Objects2ObjectsGDgdjs_46FourthCode_46GDText4Objects2ObjectsGDgdjs_46FourthCode_46GDText3Objects2ObjectsGDgdjs_46FourthCode_46GDHangingLampObjects2ObjectsGDgdjs_46FourthCode_46GDDrinksCountObjects2ObjectsGDgdjs_46FourthCode_46GDDeathCountObjects2ObjectsGDgdjs_46FourthCode_46GDFoodCountObjects2ObjectsGDgdjs_46FourthCode_46GDRespawnCountObjects2ObjectsGDgdjs_46FourthCode_46GDRestartCountObjects2ObjectsGDgdjs_46FourthCode_46GDLevelScoreObjects2ObjectsGDgdjs_46FourthCode_46GDTotalScoreObjects2ObjectsGDgdjs_46FourthCode_46GDRespawnObjects2ObjectsGDgdjs_46FourthCode_46GDAudioObjects2ObjectsGDgdjs_46FourthCode_46GDVolumeLevelObjects2ObjectsGDgdjs_46FourthCode_46GDMinusObjects2ObjectsGDgdjs_46FourthCode_46GDPauseTabObjects2ObjectsGDgdjs_46FourthCode_46GDXObjects2ObjectsGDgdjs_46FourthCode_46GDStatusObjects2ObjectsGDgdjs_46FourthCode_46GDNoJumpSoundObjects2ObjectsGDgdjs_46FourthCode_46GDPlayerObjects2ObjectsGDgdjs_46FourthCode_46GDBasePlatformObjects2ObjectsGDgdjs_46FourthCode_46GDLanternObjects2ObjectsGDgdjs_46FourthCode_46GDBarrierObjects2ObjectsGDgdjs_46FourthCode_46GDLanternTopObjects2ObjectsGDgdjs_46FourthCode_46GDWaterObjects2ObjectsGDgdjs_46FourthCode_46GDWaterSpeedChangeObjects2ObjectsGDgdjs_46FourthCode_46GDLadderObjects2ObjectsGDgdjs_46FourthCode_46GDWaterEdgeObjects2ObjectsGDgdjs_46FourthCode_46GDCheckpointObjects2ObjectsGDgdjs_46FourthCode_46GDCheckpointZoneObjects2ObjectsGDgdjs_46FourthCode_46GDSmokeObjects2ObjectsGDgdjs_46FourthCode_46GDAllObjectsCountObjects2ObjectsGDgdjs_46FourthCode_46GDFPSObjects2ObjectsGDgdjs_46FourthCode_46GDFinalScoreObjects2ObjectsGDgdjs_46FourthCode_46GDEndRestartObjects2ObjectsGDgdjs_46FourthCode_46GDEndReturnObjects2ObjectsGDgdjs_46FourthCode_46GDTheEndObjects2ObjectsGDgdjs_46FourthCode_46GDEndObjects2ObjectsGDgdjs_46FourthCode_46GDClosingScreenObjects2ObjectsGDgdjs_46FourthCode_46GDJournalAchievementObjects2ObjectsGDgdjs_46FourthCode_46GDJournalText1Objects2ObjectsGDgdjs_46FourthCode_46GDJournalText2Objects2ObjectsGDgdjs_46FourthCode_46GDJournalText3Objects2ObjectsGDgdjs_46FourthCode_46GDSunObjects2ObjectsGDgdjs_46FourthCode_46GDSunTopObjects2Objects = Hashtable.newFrom({"BG": gdjs.FourthCode.GDBGObjects2, "LockKey": gdjs.FourthCode.GDLockKeyObjects2, "LockKeyFlipped": gdjs.FourthCode.GDLockKeyFlippedObjects2, "ConcretePlatform": gdjs.FourthCode.GDConcretePlatformObjects2, "TallPlatform": gdjs.FourthCode.GDTallPlatformObjects2, "WallPlatformLeft": gdjs.FourthCode.GDWallPlatformLeftObjects2, "WallPlatformRight": gdjs.FourthCode.GDWallPlatformRightObjects2, "Column": gdjs.FourthCode.GDColumnObjects2, "HangingPlatform": gdjs.FourthCode.GDHangingPlatformObjects2, "HangingDouble": gdjs.FourthCode.GDHangingDoubleObjects2, "BasicBoat": gdjs.FourthCode.GDBasicBoatObjects2, "BasicBoatFlipped": gdjs.FourthCode.GDBasicBoatFlippedObjects2, "Box1": gdjs.FourthCode.GDBox1Objects2, "Box2": gdjs.FourthCode.GDBox2Objects2, "Box3": gdjs.FourthCode.GDBox3Objects2, "Barrel": gdjs.FourthCode.GDBarrelObjects2, "Pier": gdjs.FourthCode.GDPierObjects2, "SinkingZone": gdjs.FourthCode.GDSinkingZoneObjects2, "MovingBoat": gdjs.FourthCode.GDMovingBoatObjects2, "BoatStart": gdjs.FourthCode.GDBoatStartObjects2, "Popup": gdjs.FourthCode.GDPopupObjects2, "BoxBG": gdjs.FourthCode.GDBoxBGObjects2, "ReturnToMenu": gdjs.FourthCode.GDReturnToMenuObjects2, "RestartLevel": gdjs.FourthCode.GDRestartLevelObjects2, "Hydrophobic": gdjs.FourthCode.GDHydrophobicObjects2, "HydroDesc": gdjs.FourthCode.GDHydroDescObjects2, "OnTheMoon": gdjs.FourthCode.GDOnTheMoonObjects2, "MoonDesc": gdjs.FourthCode.GDMoonDescObjects2, "ExpressTravel": gdjs.FourthCode.GDExpressTravelObjects2, "ExpressDesc": gdjs.FourthCode.GDExpressDescObjects2, "MasterKey": gdjs.FourthCode.GDMasterKeyObjects2, "KeyDesc": gdjs.FourthCode.GDKeyDescObjects2, "XButton": gdjs.FourthCode.GDXButtonObjects2, "Text1": gdjs.FourthCode.GDText1Objects2, "Text2": gdjs.FourthCode.GDText2Objects2, "Text4": gdjs.FourthCode.GDText4Objects2, "Text3": gdjs.FourthCode.GDText3Objects2, "HangingLamp": gdjs.FourthCode.GDHangingLampObjects2, "DrinksCount": gdjs.FourthCode.GDDrinksCountObjects2, "DeathCount": gdjs.FourthCode.GDDeathCountObjects2, "FoodCount": gdjs.FourthCode.GDFoodCountObjects2, "RespawnCount": gdjs.FourthCode.GDRespawnCountObjects2, "RestartCount": gdjs.FourthCode.GDRestartCountObjects2, "LevelScore": gdjs.FourthCode.GDLevelScoreObjects2, "TotalScore": gdjs.FourthCode.GDTotalScoreObjects2, "Respawn": gdjs.FourthCode.GDRespawnObjects2, "Audio": gdjs.FourthCode.GDAudioObjects2, "VolumeLevel": gdjs.FourthCode.GDVolumeLevelObjects2, "Minus": gdjs.FourthCode.GDMinusObjects2, "PauseTab": gdjs.FourthCode.GDPauseTabObjects2, "X": gdjs.FourthCode.GDXObjects2, "Status": gdjs.FourthCode.GDStatusObjects2, "NoJumpSound": gdjs.FourthCode.GDNoJumpSoundObjects2, "Player": gdjs.FourthCode.GDPlayerObjects2, "BasePlatform": gdjs.FourthCode.GDBasePlatformObjects2, "Lantern": gdjs.FourthCode.GDLanternObjects2, "Barrier": gdjs.FourthCode.GDBarrierObjects2, "LanternTop": gdjs.FourthCode.GDLanternTopObjects2, "Water": gdjs.FourthCode.GDWaterObjects2, "WaterSpeedChange": gdjs.FourthCode.GDWaterSpeedChangeObjects2, "Ladder": gdjs.FourthCode.GDLadderObjects2, "WaterEdge": gdjs.FourthCode.GDWaterEdgeObjects2, "Checkpoint": gdjs.FourthCode.GDCheckpointObjects2, "CheckpointZone": gdjs.FourthCode.GDCheckpointZoneObjects2, "Smoke": gdjs.FourthCode.GDSmokeObjects2, "AllObjectsCount": gdjs.FourthCode.GDAllObjectsCountObjects2, "FPS": gdjs.FourthCode.GDFPSObjects2, "FinalScore": gdjs.FourthCode.GDFinalScoreObjects2, "EndRestart": gdjs.FourthCode.GDEndRestartObjects2, "EndReturn": gdjs.FourthCode.GDEndReturnObjects2, "TheEnd": gdjs.FourthCode.GDTheEndObjects2, "End": gdjs.FourthCode.GDEndObjects2, "ClosingScreen": gdjs.FourthCode.GDClosingScreenObjects2, "JournalAchievement": gdjs.FourthCode.GDJournalAchievementObjects2, "JournalText1": gdjs.FourthCode.GDJournalText1Objects2, "JournalText2": gdjs.FourthCode.GDJournalText2Objects2, "JournalText3": gdjs.FourthCode.GDJournalText3Objects2, "Sun": gdjs.FourthCode.GDSunObjects2, "SunTop": gdjs.FourthCode.GDSunTopObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.FourthCode.GDXObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.FourthCode.GDXObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDXObjects2Objects = Hashtable.newFrom({"X": gdjs.FourthCode.GDXObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.FourthCode.GDMinusObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.FourthCode.GDMinusObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDMinusObjects2Objects = Hashtable.newFrom({"Minus": gdjs.FourthCode.GDMinusObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoxBGObjects3Objects = Hashtable.newFrom({"BoxBG": gdjs.FourthCode.GDBoxBGObjects3});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoxBGObjects3Objects = Hashtable.newFrom({"BoxBG": gdjs.FourthCode.GDBoxBGObjects3});gdjs.FourthCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -1883,7 +1929,6 @@ gdjs.FourthCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(
 }if (gdjs.FourthCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("AllObjectsCount"), gdjs.FourthCode.GDAllObjectsCountObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Audio"), gdjs.FourthCode.GDAudioObjects2);
-gdjs.copyArray(runtimeScene.getObjects("BoxBG"), gdjs.FourthCode.GDBoxBGObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ExpressDesc"), gdjs.FourthCode.GDExpressDescObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ExpressTravel"), gdjs.FourthCode.GDExpressTravelObjects2);
 gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.FourthCode.GDFPSObjects2);
@@ -1907,9 +1952,6 @@ gdjs.copyArray(runtimeScene.getObjects("XButton"), gdjs.FourthCode.GDXButtonObje
 }
 }{for(var i = 0, len = gdjs.FourthCode.GDPopupObjects2.length ;i < len;++i) {
     gdjs.FourthCode.GDPopupObjects2[i].hide(false);
-}
-}{for(var i = 0, len = gdjs.FourthCode.GDBoxBGObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDBoxBGObjects2[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.FourthCode.GDHydrophobicObjects2.length ;i < len;++i) {
     gdjs.FourthCode.GDHydrophobicObjects2[i].hide(false);
@@ -1982,7 +2024,6 @@ gdjs.FourthCode.condition0IsTrue_0.val = !(gdjs.evtTools.common.getVariableNumbe
 }if (gdjs.FourthCode.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("AllObjectsCount"), gdjs.FourthCode.GDAllObjectsCountObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Audio"), gdjs.FourthCode.GDAudioObjects2);
-gdjs.copyArray(runtimeScene.getObjects("BoxBG"), gdjs.FourthCode.GDBoxBGObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ExpressDesc"), gdjs.FourthCode.GDExpressDescObjects2);
 gdjs.copyArray(runtimeScene.getObjects("ExpressTravel"), gdjs.FourthCode.GDExpressTravelObjects2);
 gdjs.copyArray(runtimeScene.getObjects("FPS"), gdjs.FourthCode.GDFPSObjects2);
@@ -2006,9 +2047,6 @@ gdjs.copyArray(runtimeScene.getObjects("XButton"), gdjs.FourthCode.GDXButtonObje
 }
 }{for(var i = 0, len = gdjs.FourthCode.GDPopupObjects2.length ;i < len;++i) {
     gdjs.FourthCode.GDPopupObjects2[i].hide();
-}
-}{for(var i = 0, len = gdjs.FourthCode.GDBoxBGObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDBoxBGObjects2[i].hide();
 }
 }{for(var i = 0, len = gdjs.FourthCode.GDHydrophobicObjects2.length ;i < len;++i) {
     gdjs.FourthCode.GDHydrophobicObjects2[i].hide();
@@ -2141,6 +2179,8 @@ gdjs.copyArray(runtimeScene.getObjects("ReturnToMenu"), gdjs.FourthCode.GDReturn
 gdjs.copyArray(runtimeScene.getObjects("SinkingZone"), gdjs.FourthCode.GDSinkingZoneObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Smoke"), gdjs.FourthCode.GDSmokeObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Status"), gdjs.FourthCode.GDStatusObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Sun"), gdjs.FourthCode.GDSunObjects2);
+gdjs.copyArray(runtimeScene.getObjects("SunTop"), gdjs.FourthCode.GDSunTopObjects2);
 gdjs.copyArray(runtimeScene.getObjects("TallPlatform"), gdjs.FourthCode.GDTallPlatformObjects2);
 gdjs.copyArray(runtimeScene.getObjects("Text1"), gdjs.FourthCode.GDText1Objects2);
 gdjs.copyArray(runtimeScene.getObjects("Text2"), gdjs.FourthCode.GDText2Objects2);
@@ -2182,7 +2222,7 @@ gdjs.copyArray(runtimeScene.getObjects("XButton"), gdjs.FourthCode.GDXButtonObje
 }{for(var i = 0, len = gdjs.FourthCode.GDVolumeLevelObjects2.length ;i < len;++i) {
     gdjs.FourthCode.GDVolumeLevelObjects2[i].setString(gdjs.evtTools.common.toString(gdjs.evtTools.sound.getGlobalVolume(runtimeScene)));
 }
-}{runtimeScene.getVariables().get("ObjectsCount").setNumber(gdjs.evtTools.object.pickedObjectsCount(gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBGObjects2ObjectsGDgdjs_46FourthCode_46GDLockKeyObjects2ObjectsGDgdjs_46FourthCode_46GDLockKeyFlippedObjects2ObjectsGDgdjs_46FourthCode_46GDConcretePlatformObjects2ObjectsGDgdjs_46FourthCode_46GDTallPlatformObjects2ObjectsGDgdjs_46FourthCode_46GDWallPlatformLeftObjects2ObjectsGDgdjs_46FourthCode_46GDWallPlatformRightObjects2ObjectsGDgdjs_46FourthCode_46GDColumnObjects2ObjectsGDgdjs_46FourthCode_46GDHangingPlatformObjects2ObjectsGDgdjs_46FourthCode_46GDHangingDoubleObjects2ObjectsGDgdjs_46FourthCode_46GDBasicBoatObjects2ObjectsGDgdjs_46FourthCode_46GDBasicBoatFlippedObjects2ObjectsGDgdjs_46FourthCode_46GDBox1Objects2ObjectsGDgdjs_46FourthCode_46GDBox2Objects2ObjectsGDgdjs_46FourthCode_46GDBox3Objects2ObjectsGDgdjs_46FourthCode_46GDBarrelObjects2ObjectsGDgdjs_46FourthCode_46GDPierObjects2ObjectsGDgdjs_46FourthCode_46GDSinkingZoneObjects2ObjectsGDgdjs_46FourthCode_46GDMovingBoatObjects2ObjectsGDgdjs_46FourthCode_46GDBoatStartObjects2ObjectsGDgdjs_46FourthCode_46GDPopupObjects2ObjectsGDgdjs_46FourthCode_46GDBoxBGObjects2ObjectsGDgdjs_46FourthCode_46GDReturnToMenuObjects2ObjectsGDgdjs_46FourthCode_46GDRestartLevelObjects2ObjectsGDgdjs_46FourthCode_46GDHydrophobicObjects2ObjectsGDgdjs_46FourthCode_46GDHydroDescObjects2ObjectsGDgdjs_46FourthCode_46GDOnTheMoonObjects2ObjectsGDgdjs_46FourthCode_46GDMoonDescObjects2ObjectsGDgdjs_46FourthCode_46GDExpressTravelObjects2ObjectsGDgdjs_46FourthCode_46GDExpressDescObjects2ObjectsGDgdjs_46FourthCode_46GDMasterKeyObjects2ObjectsGDgdjs_46FourthCode_46GDKeyDescObjects2ObjectsGDgdjs_46FourthCode_46GDXButtonObjects2ObjectsGDgdjs_46FourthCode_46GDText1Objects2ObjectsGDgdjs_46FourthCode_46GDText2Objects2ObjectsGDgdjs_46FourthCode_46GDText4Objects2ObjectsGDgdjs_46FourthCode_46GDText3Objects2ObjectsGDgdjs_46FourthCode_46GDHangingLampObjects2ObjectsGDgdjs_46FourthCode_46GDDrinksCountObjects2ObjectsGDgdjs_46FourthCode_46GDDeathCountObjects2ObjectsGDgdjs_46FourthCode_46GDFoodCountObjects2ObjectsGDgdjs_46FourthCode_46GDRespawnCountObjects2ObjectsGDgdjs_46FourthCode_46GDRestartCountObjects2ObjectsGDgdjs_46FourthCode_46GDLevelScoreObjects2ObjectsGDgdjs_46FourthCode_46GDTotalScoreObjects2ObjectsGDgdjs_46FourthCode_46GDRespawnObjects2ObjectsGDgdjs_46FourthCode_46GDAudioObjects2ObjectsGDgdjs_46FourthCode_46GDVolumeLevelObjects2ObjectsGDgdjs_46FourthCode_46GDMinusObjects2ObjectsGDgdjs_46FourthCode_46GDPauseTabObjects2ObjectsGDgdjs_46FourthCode_46GDXObjects2ObjectsGDgdjs_46FourthCode_46GDStatusObjects2ObjectsGDgdjs_46FourthCode_46GDNoJumpSoundObjects2ObjectsGDgdjs_46FourthCode_46GDPlayerObjects2ObjectsGDgdjs_46FourthCode_46GDBasePlatformObjects2ObjectsGDgdjs_46FourthCode_46GDLanternObjects2ObjectsGDgdjs_46FourthCode_46GDBarrierObjects2ObjectsGDgdjs_46FourthCode_46GDLanternTopObjects2ObjectsGDgdjs_46FourthCode_46GDWaterObjects2ObjectsGDgdjs_46FourthCode_46GDWaterSpeedChangeObjects2ObjectsGDgdjs_46FourthCode_46GDLadderObjects2ObjectsGDgdjs_46FourthCode_46GDWaterEdgeObjects2ObjectsGDgdjs_46FourthCode_46GDCheckpointObjects2ObjectsGDgdjs_46FourthCode_46GDCheckpointZoneObjects2ObjectsGDgdjs_46FourthCode_46GDSmokeObjects2ObjectsGDgdjs_46FourthCode_46GDAllObjectsCountObjects2ObjectsGDgdjs_46FourthCode_46GDFPSObjects2ObjectsGDgdjs_46FourthCode_46GDFinalScoreObjects2ObjectsGDgdjs_46FourthCode_46GDEndRestartObjects2ObjectsGDgdjs_46FourthCode_46GDEndReturnObjects2ObjectsGDgdjs_46FourthCode_46GDTheEndObjects2ObjectsGDgdjs_46FourthCode_46GDEndObjects2ObjectsGDgdjs_46FourthCode_46GDClosingScreenObjects2ObjectsGDgdjs_46FourthCode_46GDJournalAchievementObjects2ObjectsGDgdjs_46FourthCode_46GDJournalText1Objects2ObjectsGDgdjs_46FourthCode_46GDJournalText2Objects2ObjectsGDgdjs_46FourthCode_46GDJournalText3Objects2Objects));
+}{runtimeScene.getVariables().get("ObjectsCount").setNumber(gdjs.evtTools.object.pickedObjectsCount(gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBGObjects2ObjectsGDgdjs_46FourthCode_46GDLockKeyObjects2ObjectsGDgdjs_46FourthCode_46GDLockKeyFlippedObjects2ObjectsGDgdjs_46FourthCode_46GDConcretePlatformObjects2ObjectsGDgdjs_46FourthCode_46GDTallPlatformObjects2ObjectsGDgdjs_46FourthCode_46GDWallPlatformLeftObjects2ObjectsGDgdjs_46FourthCode_46GDWallPlatformRightObjects2ObjectsGDgdjs_46FourthCode_46GDColumnObjects2ObjectsGDgdjs_46FourthCode_46GDHangingPlatformObjects2ObjectsGDgdjs_46FourthCode_46GDHangingDoubleObjects2ObjectsGDgdjs_46FourthCode_46GDBasicBoatObjects2ObjectsGDgdjs_46FourthCode_46GDBasicBoatFlippedObjects2ObjectsGDgdjs_46FourthCode_46GDBox1Objects2ObjectsGDgdjs_46FourthCode_46GDBox2Objects2ObjectsGDgdjs_46FourthCode_46GDBox3Objects2ObjectsGDgdjs_46FourthCode_46GDBarrelObjects2ObjectsGDgdjs_46FourthCode_46GDPierObjects2ObjectsGDgdjs_46FourthCode_46GDSinkingZoneObjects2ObjectsGDgdjs_46FourthCode_46GDMovingBoatObjects2ObjectsGDgdjs_46FourthCode_46GDBoatStartObjects2ObjectsGDgdjs_46FourthCode_46GDPopupObjects2ObjectsGDgdjs_46FourthCode_46GDBoxBGObjects2ObjectsGDgdjs_46FourthCode_46GDReturnToMenuObjects2ObjectsGDgdjs_46FourthCode_46GDRestartLevelObjects2ObjectsGDgdjs_46FourthCode_46GDHydrophobicObjects2ObjectsGDgdjs_46FourthCode_46GDHydroDescObjects2ObjectsGDgdjs_46FourthCode_46GDOnTheMoonObjects2ObjectsGDgdjs_46FourthCode_46GDMoonDescObjects2ObjectsGDgdjs_46FourthCode_46GDExpressTravelObjects2ObjectsGDgdjs_46FourthCode_46GDExpressDescObjects2ObjectsGDgdjs_46FourthCode_46GDMasterKeyObjects2ObjectsGDgdjs_46FourthCode_46GDKeyDescObjects2ObjectsGDgdjs_46FourthCode_46GDXButtonObjects2ObjectsGDgdjs_46FourthCode_46GDText1Objects2ObjectsGDgdjs_46FourthCode_46GDText2Objects2ObjectsGDgdjs_46FourthCode_46GDText4Objects2ObjectsGDgdjs_46FourthCode_46GDText3Objects2ObjectsGDgdjs_46FourthCode_46GDHangingLampObjects2ObjectsGDgdjs_46FourthCode_46GDDrinksCountObjects2ObjectsGDgdjs_46FourthCode_46GDDeathCountObjects2ObjectsGDgdjs_46FourthCode_46GDFoodCountObjects2ObjectsGDgdjs_46FourthCode_46GDRespawnCountObjects2ObjectsGDgdjs_46FourthCode_46GDRestartCountObjects2ObjectsGDgdjs_46FourthCode_46GDLevelScoreObjects2ObjectsGDgdjs_46FourthCode_46GDTotalScoreObjects2ObjectsGDgdjs_46FourthCode_46GDRespawnObjects2ObjectsGDgdjs_46FourthCode_46GDAudioObjects2ObjectsGDgdjs_46FourthCode_46GDVolumeLevelObjects2ObjectsGDgdjs_46FourthCode_46GDMinusObjects2ObjectsGDgdjs_46FourthCode_46GDPauseTabObjects2ObjectsGDgdjs_46FourthCode_46GDXObjects2ObjectsGDgdjs_46FourthCode_46GDStatusObjects2ObjectsGDgdjs_46FourthCode_46GDNoJumpSoundObjects2ObjectsGDgdjs_46FourthCode_46GDPlayerObjects2ObjectsGDgdjs_46FourthCode_46GDBasePlatformObjects2ObjectsGDgdjs_46FourthCode_46GDLanternObjects2ObjectsGDgdjs_46FourthCode_46GDBarrierObjects2ObjectsGDgdjs_46FourthCode_46GDLanternTopObjects2ObjectsGDgdjs_46FourthCode_46GDWaterObjects2ObjectsGDgdjs_46FourthCode_46GDWaterSpeedChangeObjects2ObjectsGDgdjs_46FourthCode_46GDLadderObjects2ObjectsGDgdjs_46FourthCode_46GDWaterEdgeObjects2ObjectsGDgdjs_46FourthCode_46GDCheckpointObjects2ObjectsGDgdjs_46FourthCode_46GDCheckpointZoneObjects2ObjectsGDgdjs_46FourthCode_46GDSmokeObjects2ObjectsGDgdjs_46FourthCode_46GDAllObjectsCountObjects2ObjectsGDgdjs_46FourthCode_46GDFPSObjects2ObjectsGDgdjs_46FourthCode_46GDFinalScoreObjects2ObjectsGDgdjs_46FourthCode_46GDEndRestartObjects2ObjectsGDgdjs_46FourthCode_46GDEndReturnObjects2ObjectsGDgdjs_46FourthCode_46GDTheEndObjects2ObjectsGDgdjs_46FourthCode_46GDEndObjects2ObjectsGDgdjs_46FourthCode_46GDClosingScreenObjects2ObjectsGDgdjs_46FourthCode_46GDJournalAchievementObjects2ObjectsGDgdjs_46FourthCode_46GDJournalText1Objects2ObjectsGDgdjs_46FourthCode_46GDJournalText2Objects2ObjectsGDgdjs_46FourthCode_46GDJournalText3Objects2ObjectsGDgdjs_46FourthCode_46GDSunObjects2ObjectsGDgdjs_46FourthCode_46GDSunTopObjects2Objects));
 }{for(var i = 0, len = gdjs.FourthCode.GDAllObjectsCountObjects2.length ;i < len;++i) {
     gdjs.FourthCode.GDAllObjectsCountObjects2[i].setString("All Objects: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("ObjectsCount"))));
 }
@@ -6175,7 +6215,32 @@ gdjs.FourthCode.eventsList93(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.FourthCode.GDPlayerObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoatStartObjects2Objects = Hashtable.newFrom({"BoatStart": gdjs.FourthCode.GDBoatStartObjects2});gdjs.FourthCode.eventsList95 = function(runtimeScene) {
+};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.FourthCode.GDPlayerObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoatStartObjects2Objects = Hashtable.newFrom({"BoatStart": gdjs.FourthCode.GDBoatStartObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBarrierObjects2Objects = Hashtable.newFrom({"Barrier": gdjs.FourthCode.GDBarrierObjects2});gdjs.FourthCode.eventsList95 = function(runtimeScene) {
+
+{
+
+/* Reuse gdjs.FourthCode.GDBarrierObjects2 */
+
+gdjs.FourthCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.FourthCode.GDBarrierObjects2.length;i<l;++i) {
+    if ( gdjs.FourthCode.GDBarrierObjects2[i].getVariableString(gdjs.FourthCode.GDBarrierObjects2[i].getVariables().getFromIndex(0)) == "end" ) {
+        gdjs.FourthCode.condition0IsTrue_0.val = true;
+        gdjs.FourthCode.GDBarrierObjects2[k] = gdjs.FourthCode.GDBarrierObjects2[i];
+        ++k;
+    }
+}
+gdjs.FourthCode.GDBarrierObjects2.length = k;}if (gdjs.FourthCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.FourthCode.GDBarrierObjects2 */
+{for(var i = 0, len = gdjs.FourthCode.GDBarrierObjects2.length ;i < len;++i) {
+    gdjs.FourthCode.GDBarrierObjects2[i].deleteFromScene(runtimeScene);
+}
+}}
+
+}
+
+
+};gdjs.FourthCode.eventsList96 = function(runtimeScene) {
 
 {
 
@@ -6186,52 +6251,69 @@ gdjs.FourthCode.condition0IsTrue_0.val = false;
 gdjs.FourthCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(19165980);
 }
 }if (gdjs.FourthCode.condition0IsTrue_0.val) {
-gdjs.copyArray(runtimeScene.getObjects("BoatLantern"), gdjs.FourthCode.GDBoatLanternObjects2);
-gdjs.copyArray(runtimeScene.getObjects("BoatLanternTop"), gdjs.FourthCode.GDBoatLanternTopObjects2);
-/* Reuse gdjs.FourthCode.GDBoatStartObjects2 */
-gdjs.copyArray(runtimeScene.getObjects("FinalScore"), gdjs.FourthCode.GDFinalScoreObjects2);
-gdjs.copyArray(runtimeScene.getObjects("MovingBoat"), gdjs.FourthCode.GDMovingBoatObjects2);
-gdjs.copyArray(runtimeScene.getObjects("PauseTab"), gdjs.FourthCode.GDPauseTabObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Smoke"), gdjs.FourthCode.GDSmokeObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Status"), gdjs.FourthCode.GDStatusObjects2);
-{for(var i = 0, len = gdjs.FourthCode.GDSmokeObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDSmokeObjects2[i].setAnimationName("Start");
+gdjs.copyArray(runtimeScene.getObjects("BoatLantern"), gdjs.FourthCode.GDBoatLanternObjects3);
+gdjs.copyArray(runtimeScene.getObjects("BoatLanternTop"), gdjs.FourthCode.GDBoatLanternTopObjects3);
+gdjs.copyArray(gdjs.FourthCode.GDBoatStartObjects2, gdjs.FourthCode.GDBoatStartObjects3);
+
+gdjs.copyArray(runtimeScene.getObjects("FinalScore"), gdjs.FourthCode.GDFinalScoreObjects3);
+gdjs.copyArray(runtimeScene.getObjects("MovingBoat"), gdjs.FourthCode.GDMovingBoatObjects3);
+gdjs.copyArray(runtimeScene.getObjects("PauseTab"), gdjs.FourthCode.GDPauseTabObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Smoke"), gdjs.FourthCode.GDSmokeObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Status"), gdjs.FourthCode.GDStatusObjects3);
+{for(var i = 0, len = gdjs.FourthCode.GDSmokeObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDSmokeObjects3[i].setAnimationName("Start");
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDMovingBoatObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDMovingBoatObjects2[i].setAnimationName("Moving");
+}{for(var i = 0, len = gdjs.FourthCode.GDMovingBoatObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDMovingBoatObjects3[i].setAnimationName("Moving");
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDBoatStartObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDBoatStartObjects2[i].deleteFromScene(runtimeScene);
+}{for(var i = 0, len = gdjs.FourthCode.GDBoatStartObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDBoatStartObjects3[i].deleteFromScene(runtimeScene);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDSmokeObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDSmokeObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDSmokeObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDSmokeObjects3[i].hide(false);
 }
 }{gdjs.evtTools.sound.playMusic(runtimeScene, "thing..mp3", false, 30, 1);
-}{for(var i = 0, len = gdjs.FourthCode.GDBoatLanternObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDBoatLanternObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDBoatLanternObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDBoatLanternObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDBoatLanternTopObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDBoatLanternTopObjects2[i].hide(false);
+}{for(var i = 0, len = gdjs.FourthCode.GDBoatLanternTopObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDBoatLanternTopObjects3[i].hide(false);
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDPauseTabObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDPauseTabObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDPauseTabObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDPauseTabObjects3[i].hide();
 }
-}{for(var i = 0, len = gdjs.FourthCode.GDStatusObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDStatusObjects2[i].hide();
+}{for(var i = 0, len = gdjs.FourthCode.GDStatusObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDStatusObjects3[i].hide();
 }
 }{runtimeScene.getVariables().get("Paused").setNumber(0);
 }{runtimeScene.getGame().getVariables().get("Level4Complete").setNumber(2);
 }{runtimeScene.getGame().getVariables().get("Level4Score").add(10);
 }{runtimeScene.getGame().getVariables().get("TotalScore").setNumber(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Level1Score")) + gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Level2Score")) + gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Level3Score")) + gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("Level4Score")));
-}{for(var i = 0, len = gdjs.FourthCode.GDFinalScoreObjects2.length ;i < len;++i) {
-    gdjs.FourthCode.GDFinalScoreObjects2[i].setString("Final Score: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("TotalScore"))));
+}{for(var i = 0, len = gdjs.FourthCode.GDFinalScoreObjects3.length ;i < len;++i) {
+    gdjs.FourthCode.GDFinalScoreObjects3[i].setString("Final Score: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().get("TotalScore"))));
 }
 }}
 
 }
 
 
-};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDMovingBoatObjects2Objects = Hashtable.newFrom({"MovingBoat": gdjs.FourthCode.GDMovingBoatObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndObjects2Objects = Hashtable.newFrom({"End": gdjs.FourthCode.GDEndObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoxBGObjects2Objects = Hashtable.newFrom({"BoxBG": gdjs.FourthCode.GDBoxBGObjects2});gdjs.FourthCode.eventsList96 = function(runtimeScene) {
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Barrier"), gdjs.FourthCode.GDBarrierObjects2);
+
+gdjs.FourthCode.condition0IsTrue_0.val = false;
+{
+gdjs.FourthCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickAllObjects(runtimeScene, gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBarrierObjects2Objects);
+}if (gdjs.FourthCode.condition0IsTrue_0.val) {
+
+{ //Subevents
+gdjs.FourthCode.eventsList95(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDMovingBoatObjects2Objects = Hashtable.newFrom({"MovingBoat": gdjs.FourthCode.GDMovingBoatObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndObjects2Objects = Hashtable.newFrom({"End": gdjs.FourthCode.GDEndObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDBoxBGObjects2Objects = Hashtable.newFrom({"BoxBG": gdjs.FourthCode.GDBoxBGObjects2});gdjs.FourthCode.eventsList97 = function(runtimeScene) {
 
 {
 
@@ -6256,7 +6338,7 @@ gdjs.FourthCode.GDBoxBGObjects2.length = k;}if (gdjs.FourthCode.condition0IsTrue
 }
 
 
-};gdjs.FourthCode.eventsList97 = function(runtimeScene) {
+};gdjs.FourthCode.eventsList98 = function(runtimeScene) {
 
 {
 
@@ -6268,13 +6350,13 @@ gdjs.FourthCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickAllObjects(run
 }if (gdjs.FourthCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.FourthCode.eventsList96(runtimeScene);} //End of subevents
+gdjs.FourthCode.eventsList97(runtimeScene);} //End of subevents
 }
 
 }
 
 
-};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndReturnObjects2Objects = Hashtable.newFrom({"EndReturn": gdjs.FourthCode.GDEndReturnObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndReturnObjects2Objects = Hashtable.newFrom({"EndReturn": gdjs.FourthCode.GDEndReturnObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndReturnObjects2Objects = Hashtable.newFrom({"EndReturn": gdjs.FourthCode.GDEndReturnObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndRestartObjects2Objects = Hashtable.newFrom({"EndRestart": gdjs.FourthCode.GDEndRestartObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndRestartObjects2Objects = Hashtable.newFrom({"EndRestart": gdjs.FourthCode.GDEndRestartObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndRestartObjects1Objects = Hashtable.newFrom({"EndRestart": gdjs.FourthCode.GDEndRestartObjects1});gdjs.FourthCode.eventsList98 = function(runtimeScene) {
+};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndReturnObjects2Objects = Hashtable.newFrom({"EndReturn": gdjs.FourthCode.GDEndReturnObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndReturnObjects2Objects = Hashtable.newFrom({"EndReturn": gdjs.FourthCode.GDEndReturnObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndReturnObjects2Objects = Hashtable.newFrom({"EndReturn": gdjs.FourthCode.GDEndReturnObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndRestartObjects2Objects = Hashtable.newFrom({"EndRestart": gdjs.FourthCode.GDEndRestartObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndRestartObjects2Objects = Hashtable.newFrom({"EndRestart": gdjs.FourthCode.GDEndRestartObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDEndRestartObjects1Objects = Hashtable.newFrom({"EndRestart": gdjs.FourthCode.GDEndRestartObjects1});gdjs.FourthCode.eventsList99 = function(runtimeScene) {
 
 {
 
@@ -6291,7 +6373,7 @@ gdjs.FourthCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }
 }
 { //Subevents
-gdjs.FourthCode.eventsList95(runtimeScene);} //End of subevents
+gdjs.FourthCode.eventsList96(runtimeScene);} //End of subevents
 }
 
 }
@@ -6312,8 +6394,12 @@ for(var i = 0, k = 0, l = gdjs.FourthCode.GDMovingBoatObjects2.length;i<l;++i) {
 }
 gdjs.FourthCode.GDMovingBoatObjects2.length = k;}if (gdjs.FourthCode.condition0IsTrue_0.val) {
 /* Reuse gdjs.FourthCode.GDMovingBoatObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.FourthCode.GDPlayerObjects2);
 {for(var i = 0, len = gdjs.FourthCode.GDMovingBoatObjects2.length ;i < len;++i) {
     gdjs.FourthCode.GDMovingBoatObjects2[i].addPolarForce(0, 23 * gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("VehicleSpeedModifier")), 0);
+}
+}{for(var i = 0, len = gdjs.FourthCode.GDPlayerObjects2.length ;i < len;++i) {
+    gdjs.FourthCode.GDPlayerObjects2[i].getBehavior("PlatformerObject").ignoreDefaultControls(true);
 }
 }}
 
@@ -6394,7 +6480,7 @@ gdjs.copyArray(runtimeScene.getObjects("TheEnd"), gdjs.FourthCode.GDTheEndObject
 }
 }
 { //Subevents
-gdjs.FourthCode.eventsList97(runtimeScene);} //End of subevents
+gdjs.FourthCode.eventsList98(runtimeScene);} //End of subevents
 }
 
 }
@@ -6528,7 +6614,7 @@ if (gdjs.FourthCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.FourthCode.eventsList99 = function(runtimeScene) {
+};gdjs.FourthCode.eventsList100 = function(runtimeScene) {
 
 {
 
@@ -6571,7 +6657,7 @@ gdjs.FourthCode.GDPlayerObjects2.length = k;}if (gdjs.FourthCode.condition0IsTru
 }
 
 
-};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.FourthCode.GDPlayerObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDNoJumpSoundObjects2Objects = Hashtable.newFrom({"NoJumpSound": gdjs.FourthCode.GDNoJumpSoundObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.FourthCode.GDPlayerObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDNoJumpSoundObjects2Objects = Hashtable.newFrom({"NoJumpSound": gdjs.FourthCode.GDNoJumpSoundObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDLanternObjects2Objects = Hashtable.newFrom({"Lantern": gdjs.FourthCode.GDLanternObjects2});gdjs.FourthCode.eventsList100 = function(runtimeScene) {
+};gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.FourthCode.GDPlayerObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDNoJumpSoundObjects2Objects = Hashtable.newFrom({"NoJumpSound": gdjs.FourthCode.GDNoJumpSoundObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.FourthCode.GDPlayerObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDNoJumpSoundObjects2Objects = Hashtable.newFrom({"NoJumpSound": gdjs.FourthCode.GDNoJumpSoundObjects2});gdjs.FourthCode.mapOfGDgdjs_46FourthCode_46GDLanternObjects2Objects = Hashtable.newFrom({"Lantern": gdjs.FourthCode.GDLanternObjects2});gdjs.FourthCode.eventsList101 = function(runtimeScene) {
 
 {
 
@@ -6585,7 +6671,7 @@ gdjs.FourthCode.GDPlayerObjects2.length = k;}if (gdjs.FourthCode.condition0IsTru
 }
 
 
-};gdjs.FourthCode.eventsList101 = function(runtimeScene) {
+};gdjs.FourthCode.eventsList102 = function(runtimeScene) {
 
 {
 
@@ -6624,7 +6710,7 @@ for(var i = 0, k = 0, l = gdjs.FourthCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.FourthCode.GDPlayerObjects2.length = k;}if (gdjs.FourthCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.FourthCode.eventsList99(runtimeScene);} //End of subevents
+gdjs.FourthCode.eventsList100(runtimeScene);} //End of subevents
 }
 
 }
@@ -6842,7 +6928,7 @@ gdjs.FourthCode.condition0IsTrue_0.val = gdjs.evtTools.object.pickNearestObject(
 }if (gdjs.FourthCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.FourthCode.eventsList100(runtimeScene);} //End of subevents
+gdjs.FourthCode.eventsList101(runtimeScene);} //End of subevents
 }
 
 }
@@ -6868,7 +6954,7 @@ if (gdjs.FourthCode.condition1IsTrue_0.val) {
 }
 
 
-};gdjs.FourthCode.eventsList102 = function(runtimeScene) {
+};gdjs.FourthCode.eventsList103 = function(runtimeScene) {
 
 {
 
@@ -7056,14 +7142,14 @@ gdjs.FourthCode.eventsList94(runtimeScene);
 {
 
 
-gdjs.FourthCode.eventsList98(runtimeScene);
+gdjs.FourthCode.eventsList99(runtimeScene);
 }
 
 
 {
 
 
-gdjs.FourthCode.eventsList101(runtimeScene);
+gdjs.FourthCode.eventsList102(runtimeScene);
 }
 
 
@@ -7132,6 +7218,16 @@ gdjs.FourthCode.GDSmokeObjects2.length = 0;
 gdjs.FourthCode.GDSmokeObjects3.length = 0;
 gdjs.FourthCode.GDSmokeObjects4.length = 0;
 gdjs.FourthCode.GDSmokeObjects5.length = 0;
+gdjs.FourthCode.GDSunObjects1.length = 0;
+gdjs.FourthCode.GDSunObjects2.length = 0;
+gdjs.FourthCode.GDSunObjects3.length = 0;
+gdjs.FourthCode.GDSunObjects4.length = 0;
+gdjs.FourthCode.GDSunObjects5.length = 0;
+gdjs.FourthCode.GDSunTopObjects1.length = 0;
+gdjs.FourthCode.GDSunTopObjects2.length = 0;
+gdjs.FourthCode.GDSunTopObjects3.length = 0;
+gdjs.FourthCode.GDSunTopObjects4.length = 0;
+gdjs.FourthCode.GDSunTopObjects5.length = 0;
 gdjs.FourthCode.GDBGObjects1.length = 0;
 gdjs.FourthCode.GDBGObjects2.length = 0;
 gdjs.FourthCode.GDBGObjects3.length = 0;
@@ -7473,7 +7569,7 @@ gdjs.FourthCode.GDJournalText3Objects3.length = 0;
 gdjs.FourthCode.GDJournalText3Objects4.length = 0;
 gdjs.FourthCode.GDJournalText3Objects5.length = 0;
 
-gdjs.FourthCode.eventsList102(runtimeScene);
+gdjs.FourthCode.eventsList103(runtimeScene);
 return;
 
 }
