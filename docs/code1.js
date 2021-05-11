@@ -731,7 +731,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17741276);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18124148);
 }
 }}
 }
@@ -848,7 +848,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17746364);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18129236);
 }
 }}
 }
@@ -965,7 +965,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17751524);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18134396);
 }
 }}
 }
@@ -1082,7 +1082,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPress
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17756612);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18139484);
 }
 }}
 }
@@ -1578,7 +1578,7 @@ gdjs.OptionsCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelea
 }if ( gdjs.OptionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.OptionsCode.conditionTrue_1 = gdjs.OptionsCode.condition2IsTrue_0;
-gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17766684);
+gdjs.OptionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18153092);
 }
 }}
 }

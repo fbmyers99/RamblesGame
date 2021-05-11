@@ -203,7 +203,7 @@ gdjs.MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.M
 }if ( gdjs.MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MenuCode.conditionTrue_1 = gdjs.MenuCode.condition2IsTrue_0;
-gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17696596);
+gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18079468);
 }
 }}
 }
@@ -265,7 +265,7 @@ gdjs.MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(
 }if ( gdjs.MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MenuCode.conditionTrue_1 = gdjs.MenuCode.condition2IsTrue_0;
-gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17700796);
+gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18083668);
 }
 }}
 }
@@ -327,7 +327,7 @@ gdjs.MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(
 }if ( gdjs.MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MenuCode.conditionTrue_1 = gdjs.MenuCode.condition2IsTrue_0;
-gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17704652);
+gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18087524);
 }
 }}
 }
@@ -389,7 +389,7 @@ gdjs.MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased
 }if ( gdjs.MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MenuCode.conditionTrue_1 = gdjs.MenuCode.condition2IsTrue_0;
-gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17708012);
+gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18090884);
 }
 }}
 }
@@ -492,7 +492,7 @@ gdjs.MenuCode.condition1IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.M
 }if ( gdjs.MenuCode.condition1IsTrue_0.val ) {
 {
 {gdjs.MenuCode.conditionTrue_1 = gdjs.MenuCode.condition2IsTrue_0;
-gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(17693388);
+gdjs.MenuCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(18076260);
 }
 }}
 }
